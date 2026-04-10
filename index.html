@@ -135,37 +135,37 @@
         }
         .kpi-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-            gap: 1.25rem;
-            margin-bottom: 2.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 0.75rem;
+            margin-bottom: 1.75rem;
         }
         .kpi-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 8px;
-            padding: 1.25rem 1.5rem;
+            padding: 0.75rem 1rem;
             transition: all 0.3s ease;
         }
         .kpi-card:hover {
             border-color: var(--accent-green);
-            box-shadow: 0 0 20px rgba(0, 168, 107, 0.15);
+            box-shadow: 0 0 16px rgba(0, 168, 107, 0.15);
         }
         .kpi-label {
-            font-size: 0.78rem;
+            font-size: 0.7rem;
             color: var(--text-secondary);
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.25rem;
             font-weight: 600;
         }
         .kpi-value {
-            font-size: 1.9rem;
+            font-size: 1.4rem;
             font-weight: 700;
             color: var(--accent-green);
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.15rem;
         }
         .kpi-delta {
-            font-size: 0.8rem;
+            font-size: 0.72rem;
             color: var(--text-secondary);
         }
         /* Tabs */
@@ -177,13 +177,13 @@
             flex-wrap: wrap;
         }
         .tab-button {
-            padding: 0.65rem 1.25rem;
+            padding: 0.75rem 1.4rem;
             background: transparent;
             border: none;
             color: var(--text-secondary);
             cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: 500;
+            font-size: 1.05rem;
+            font-weight: 600;
             border-bottom: 2px solid transparent;
             margin-bottom: -2px;
             transition: all 0.2s;
@@ -316,6 +316,50 @@
             padding: 2rem;
             text-align: center;
             color: var(--text-secondary);
+        }
+        /* Comparative Analysis */
+        .comp-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        @media (max-width: 768px) { .comp-grid { grid-template-columns: 1fr; } }
+        .comp-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+        .comp-card-green { border-left: 4px solid var(--success); }
+        .comp-card-red   { border-left: 4px solid var(--danger); }
+        .comp-card-header {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .comp-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+        }
+        .comp-list li {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            padding-left: 0.5rem;
+            border-left: 2px solid var(--border-color);
+        }
+        .comp-list li strong { color: var(--text-primary); }
+        .analysis-divider {
+            height: 1px;
+            background: var(--border-color);
+            margin: 2rem 0;
         }
         .error {
             background: rgba(248,81,73,0.1);
@@ -651,8 +695,8 @@
             renderOverviewTab(contentDays, followerDays, posts);
             renderContentTab(posts, analysis);
             renderAudienceTab(demo.followers);
-            renderVisitorsTab(visitorDays, demo.visitors);
-            renderAnalysisTab(analysis);
+            renderVisitorsTab(visitorDays, demo.visitors, posts);
+            renderAnalysisTab(analysis, posts);
         }
 
         // ─── KPIs ─────────────────────────────────────────────────────────────
@@ -674,7 +718,7 @@
         // Retorna arrays de cor/tamanho de ponto: vermelho e grande nos dias de post
         function postMarkers(labels, postDateSet) {
             const colors  = labels.map(l => postDateSet.has(l) ? '#f85149' : '#00A86B');
-            const radii   = labels.map(l => postDateSet.has(l) ? 7 : 3);
+            const radii   = labels.map(l => postDateSet.has(l) ? 5 : 2);
             const borders = labels.map(l => postDateSet.has(l) ? '#ff6b6b' : '#00A86B');
             return { colors, radii, borders };
         }
@@ -741,9 +785,14 @@
             const sorted = [...posts].sort((a,b) => (b['Taxa de engajamento'] || 0) - (a['Taxa de engajamento'] || 0));
             document.getElementById('contentTableBody').innerHTML = sorted.length
                 ? sorted.map(p => {
-                    const title = (p['Título da publicação'] || '').substring(0, 55);
+                    const fullTitle = p['Título da publicação'] || '';
+                    const title = fullTitle.substring(0, 55) + (fullTitle.length > 55 ? '...' : '');
+                    const link = p['Link da publicação'] || '';
+                    const titleCell = link
+                        ? `<a href="${link}" target="_blank" rel="noopener" style="color:var(--accent-green);text-decoration:none;" title="${fullTitle}" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>`
+                        : `<span title="${fullTitle}">${title}</span>`;
                     return `<tr>
-                        <td title="${p['Título da publicação'] || ''}">${title}${(p['Título da publicação']||'').length > 55 ? '...' : ''}</td>
+                        <td>${titleCell}</td>
                         <td>${formatChartDate(p['Criação'] || '')}</td>
                         <td>${formatNumber(p['Impressões'] || 0)}</td>
                         <td>${formatNumber(p['Cliques'] || 0)}</td>
@@ -771,7 +820,7 @@
         }
 
         // ─── ABA VISITANTES ───────────────────────────────────────────────────
-        function renderVisitorsTab(visitorDays, demo) {
+        function renderVisitorsTab(visitorDays, demo, posts) {
             const labels = visitorDays.map(d => formatChartDate(d.date));
             const desktop = visitorDays.map(d => d['Total de visualizações da página (computadores)'] || 0);
             const mobile = visitorDays.map(d => {
@@ -780,19 +829,28 @@
             });
             const unique = visitorDays.map(d => d['Total de visitantes únicos (total)'] || 0);
 
+            const postDateSet = new Set((posts || []).map(p => formatChartDate(p['Criação'] || '')).filter(Boolean));
+            const pm = postMarkers(labels, postDateSet);
+            const legendNote = postDateSet.size > 0 ? ' (🔴 = post publicado)' : '';
+
             renderChart('pageViewsChart', {
                 type: 'line',
                 data: { labels, datasets: [
-                    { label: 'Desktop', data: desktop, borderColor: '#00A86B', tension: 0.3, fill: false },
-                    { label: 'Mobile',  data: mobile,  borderColor: '#006B3F', tension: 0.3, fill: false }
+                    { label: 'Desktop', data: desktop, borderColor: '#00A86B', tension: 0.3, fill: false,
+                      pointBackgroundColor: pm.colors, pointBorderColor: pm.borders, pointRadius: pm.radii, pointHoverRadius: pm.radii.map(r=>r+2) },
+                    { label: 'Mobile',  data: mobile,  borderColor: '#006B3F', tension: 0.3, fill: false,
+                      pointBackgroundColor: pm.colors, pointBorderColor: pm.borders, pointRadius: pm.radii, pointHoverRadius: pm.radii.map(r=>r+2) }
                 ] },
-                options: cfgWithTitle('Visualizações de Página — Desktop vs Mobile')
+                options: cfgWithTitle('Visualizações de Página — Desktop vs Mobile' + legendNote)
             });
 
             renderChart('uniqueVisitorsChart', {
                 type: 'line',
-                data: { labels, datasets: [{ label: 'Visitantes Únicos', data: unique, borderColor: '#00A86B', backgroundColor: 'rgba(0,168,107,0.1)', tension: 0.3, fill: true }] },
-                options: cfgWithTitle('Visitantes Únicos por Dia', { plugins: { legend: { display: false } } })
+                data: { labels, datasets: [{ label: 'Visitantes Únicos', data: unique,
+                    borderColor: '#00A86B', backgroundColor: 'rgba(0,168,107,0.1)', tension: 0.3, fill: true,
+                    pointBackgroundColor: pm.colors, pointBorderColor: pm.borders, pointRadius: pm.radii, pointHoverRadius: pm.radii.map(r=>r+2)
+                }] },
+                options: cfgWithTitle('Visitantes Únicos por Dia' + legendNote, { plugins: { legend: { display: false } } })
             });
 
             renderHBar('visitorLocationsChart', demo['Localidade'] || [],          'Localidades dos Visitantes');
@@ -803,11 +861,164 @@
         }
 
         // ─── ABA ANÁLISE ──────────────────────────────────────────────────────
-        function renderAnalysisTab(analysis) {
+        function renderAnalysisTab(analysis, posts) {
             const el = document.getElementById('analysisContent');
-            if (!analysis) { el.innerHTML = '<div class="no-data">Análise estratégica disponível para meses completos. Selecione um período que inclua um mês inteiro.</div>'; return; }
             let html = '';
-            if (analysis.summary) html += `<div class="summary-block"><strong>Resumo da Performance:</strong><br><br>${analysis.summary}</div>`;
+
+            // ── ANÁLISE COMPARATIVA DE PUBLICAÇÕES ────────────────────────────
+            const DOW_NAMES = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+
+            if (posts && posts.length > 0) {
+                // Parse e enriquecer cada post
+                const parsed = posts.map(p => {
+                    const dt = parseLinkedInDate(p['Criação'] || '');
+                    const engRate = typeof p['Taxa de engajamento'] === 'number'
+                        ? p['Taxa de engajamento'] * 100
+                        : (parseFloat(p['Taxa de engajamento']) || 0) * 100;
+                    const impressions = parseFloat(p['Impressões']) || 0;
+                    const clicks     = parseFloat(p['Cliques'])     || 0;
+                    const likes      = parseFloat(p['Gostaram'])    || 0;
+                    const comments   = parseFloat(p['Comentários']) || 0;
+                    const shares     = parseFloat(p['Compartilhamentos']) || 0;
+                    const rawTitle   = p['Título da publicação'] || '';
+                    const firstLine  = rawTitle.split('\n')[0].trim();
+                    const title      = firstLine.length > 75 ? firstLine.slice(0, 75) + '…' : firstLine;
+                    const link       = p['Link da publicação'] || '';
+                    const type       = (p['Tipo de conteúdo'] || '').trim() || (p['Tipo de publicação'] || '').trim() || 'Orgânico';
+                    const dow        = dt ? dt.getDay() : null;
+                    return { title, link, engRate, impressions, clicks, likes, comments, shares, type, dt, dow };
+                }).sort((a, b) => b.engRate - a.engRate);
+
+                // ── 1. Ranking de posts ──────────────────────────────────────
+                html += '<h3 class="section-title">📊 Ranking de Publicações por Engajamento</h3>';
+                html += '<div class="table-responsive"><table><thead><tr><th>#</th><th>Publicação</th><th>Data</th><th>Dia</th><th>Impressões</th><th>Engajamento</th><th>Likes</th><th>Coment.</th><th>Compart.</th></tr></thead><tbody>';
+                parsed.forEach((p, i) => {
+                    const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i + 1}.`;
+                    const titleHtml = p.link
+                        ? `<a href="${p.link}" target="_blank" rel="noopener" style="color:var(--accent-green);text-decoration:none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${p.title}</a>`
+                        : p.title;
+                    const engColor = p.engRate >= 15 ? 'var(--success)' : p.engRate >= 7 ? '#f5a623' : 'var(--danger)';
+                    const dateStr  = p.dt ? p.dt.toLocaleDateString('pt-BR', { day:'2-digit', month:'2-digit' }) : '–';
+                    const dowStr   = p.dow !== null ? DOW_NAMES[p.dow] : '–';
+                    html += `<tr>
+                        <td style="text-align:center;font-size:1rem">${medal}</td>
+                        <td style="max-width:280px">${titleHtml}</td>
+                        <td style="white-space:nowrap">${dateStr}</td>
+                        <td>${dowStr}</td>
+                        <td>${formatNumber(p.impressions)}</td>
+                        <td style="color:${engColor};font-weight:700">${p.engRate.toFixed(1)}%</td>
+                        <td>${p.likes}</td>
+                        <td>${p.comments}</td>
+                        <td>${p.shares}</td>
+                    </tr>`;
+                });
+                html += '</tbody></table></div>';
+
+                // ── 2. Performance por dia da semana ────────────────────────
+                const dowGroups = {};
+                parsed.forEach(p => {
+                    if (p.dow === null) return;
+                    if (!dowGroups[p.dow]) dowGroups[p.dow] = { count: 0, engSum: 0, impSum: 0 };
+                    dowGroups[p.dow].count++;
+                    dowGroups[p.dow].engSum += p.engRate;
+                    dowGroups[p.dow].impSum += p.impressions;
+                });
+                const dowEntries = Object.entries(dowGroups)
+                    .map(([d, v]) => ({ dow: parseInt(d), name: DOW_NAMES[parseInt(d)], avgEng: v.engSum / v.count, avgImp: Math.round(v.impSum / v.count), count: v.count }))
+                    .sort((a, b) => b.avgEng - a.avgEng);
+
+                if (dowEntries.length > 0) {
+                    html += '<h3 class="section-title">📅 Performance por Dia da Semana</h3>';
+                    html += '<div class="table-responsive"><table><thead><tr><th>Dia</th><th>Nº de Posts</th><th>Eng. Médio</th><th>Impressões Médias</th><th>Performance</th></tr></thead><tbody>';
+                    const maxEng = dowEntries[0].avgEng;
+                    dowEntries.forEach(d => {
+                        const engColor = d.avgEng >= 15 ? 'var(--success)' : d.avgEng >= 7 ? '#f5a623' : 'var(--danger)';
+                        const barW     = Math.round((d.avgEng / maxEng) * 100);
+                        html += `<tr>
+                            <td><strong>${d.name}</strong></td>
+                            <td style="text-align:center">${d.count}</td>
+                            <td style="color:${engColor};font-weight:700">${d.avgEng.toFixed(1)}%</td>
+                            <td>${formatNumber(d.avgImp)}</td>
+                            <td style="min-width:120px">
+                                <div style="background:var(--border-color);border-radius:4px;height:10px;overflow:hidden">
+                                    <div style="width:${barW}%;height:100%;background:${engColor};border-radius:4px;transition:width 0.3s"></div>
+                                </div>
+                            </td>
+                        </tr>`;
+                    });
+                    html += '</tbody></table></div>';
+                }
+
+                // ── 3. Tipo de conteúdo ──────────────────────────────────────
+                const typeGroups = {};
+                parsed.forEach(p => {
+                    const t = p.type || 'Orgânico';
+                    if (!typeGroups[t]) typeGroups[t] = { count: 0, engSum: 0, impSum: 0 };
+                    typeGroups[t].count++;
+                    typeGroups[t].engSum += p.engRate;
+                    typeGroups[t].impSum += p.impressions;
+                });
+                const typeEntries = Object.entries(typeGroups)
+                    .map(([t, v]) => ({ type: t, avgEng: v.engSum / v.count, avgImp: Math.round(v.impSum / v.count), count: v.count }))
+                    .sort((a, b) => b.avgEng - a.avgEng);
+
+                if (typeEntries.length > 1) {
+                    html += '<h3 class="section-title">📌 Performance por Tipo de Conteúdo</h3>';
+                    html += '<div class="table-responsive"><table><thead><tr><th>Tipo</th><th>Posts</th><th>Eng. Médio</th><th>Impressões Médias</th></tr></thead><tbody>';
+                    typeEntries.forEach(t => {
+                        const engColor = t.avgEng >= 15 ? 'var(--success)' : t.avgEng >= 7 ? '#f5a623' : 'var(--danger)';
+                        html += `<tr><td><strong>${t.type}</strong></td><td style="text-align:center">${t.count}</td><td style="color:${engColor};font-weight:700">${t.avgEng.toFixed(1)}%</td><td>${formatNumber(t.avgImp)}</td></tr>`;
+                    });
+                    html += '</tbody></table></div>';
+                }
+
+                // ── 4. O que está funcionando / O que pode melhorar ─────────
+                html += '<h3 class="section-title">🎯 Diagnóstico Estratégico</h3>';
+                html += '<div class="comp-grid">';
+
+                // Card verde — o que funciona
+                const best       = parsed[0];
+                const worst      = parsed[parsed.length - 1];
+                const bestDow    = dowEntries[0];
+                const worstDow   = dowEntries.length > 1 ? dowEntries[dowEntries.length - 1] : null;
+                const topByImp   = [...parsed].sort((a, b) => b.impressions - a.impressions)[0];
+                const avgComm    = parsed.reduce((s, p) => s + p.comments, 0) / parsed.length;
+                const avgShares  = parsed.reduce((s, p) => s + p.shares, 0) / parsed.length;
+                const avgEngAll  = parsed.reduce((s, p) => s + p.engRate, 0) / parsed.length;
+
+                html += '<div class="comp-card comp-card-green">';
+                html += '<div class="comp-card-header">✅ O que está funcionando</div>';
+                html += '<ul class="comp-list">';
+                html += `<li><strong>Post de maior engajamento:</strong> "${best.title}" — <span style="color:var(--success);font-weight:700">${best.engRate.toFixed(1)}%</span></li>`;
+                html += `<li><strong>Maior alcance:</strong> "${topByImp.title}" — ${formatNumber(topByImp.impressions)} impressões</li>`;
+                if (bestDow) html += `<li><strong>Melhor dia para postar:</strong> <strong style="color:var(--success)">${bestDow.name}</strong> (eng. médio: ${bestDow.avgEng.toFixed(1)}%)</li>`;
+                if (avgShares >= 3) html += `<li><strong>Compartilhamentos sólidos:</strong> Média de ${avgShares.toFixed(1)} compart./post indica conteúdo de valor para a audiência.</li>`;
+                if (avgEngAll >= 10) html += `<li><strong>Engajamento acima da média B2B:</strong> Taxa média de ${avgEngAll.toFixed(1)}% — referência LinkedIn B2B é ~2–5%.</li>`;
+                html += '</ul></div>';
+
+                // Card vermelho — o que melhorar
+                html += '<div class="comp-card comp-card-red">';
+                html += '<div class="comp-card-header">🔧 O que pode melhorar</div>';
+                html += '<ul class="comp-list">';
+                html += `<li><strong>Post com menor engajamento:</strong> "${worst.title}" — ${worst.engRate.toFixed(1)}% — revisar gancho e CTA.</li>`;
+                if (worstDow && worstDow.name !== bestDow?.name) html += `<li><strong>Dia de menor performance:</strong> <strong style="color:var(--danger)">${worstDow.name}</strong> (eng. médio: ${worstDow.avgEng.toFixed(1)}%) — considere realocar posts para dias mais fortes.</li>`;
+                if (avgComm < 2) html += `<li><strong>Comentários abaixo do esperado:</strong> Média de ${avgComm.toFixed(1)}/post. CTAs com perguntas diretas ao tomador de decisão tendem a aumentar este número.</li>`;
+                if (avgShares < 3) html += `<li><strong>Compartilhamentos baixos:</strong> Média de ${avgShares.toFixed(1)}/post. Conteúdo técnico com dados setoriais tende a ser mais compartilhado.</li>`;
+                html += '</ul></div>';
+
+                html += '</div>'; // end comp-grid
+
+                if (analysis) html += '<div class="analysis-divider"></div>';
+
+            } else if (!analysis) {
+                el.innerHTML = '<div class="no-data">Nenhuma publicação disponível para este período.</div>';
+                return;
+            }
+
+            // ── ANÁLISE ESTRATÉGICA (dados do JSON) ────────────────────────────
+            if (!analysis) { el.innerHTML = html; return; }
+
+            if (analysis.summary) html += `<h3 class="section-title">📋 Resumo Estratégico</h3><div class="summary-block">${analysis.summary}</div>`;
             if (analysis.trends?.length) {
                 html += '<h3 class="section-title">Tendências</h3><div class="insights-cards">';
                 html += analysis.trends.map(t => `<div class="insight-card"><div class="insight-card-icon">📈</div><div class="insight-card-content"><div class="insight-card-title">${t.title}</div><div class="insight-card-detail">${t.detail}</div></div></div>`).join('');
@@ -816,7 +1027,7 @@
             if (analysis.audienceInsights) {
                 html += `<h3 class="section-title">Perfil da Audiência</h3><div class="summary-block">${analysis.audienceInsights.summary || ''}</div>`;
                 if (analysis.audienceInsights.highlights?.length) {
-                    html += '<div class="insights-cards">' + analysis.audienceInsights.highlights.map((h,i) =>
+                    html += '<div class="insights-cards">' + analysis.audienceInsights.highlights.map((h, i) =>
                         `<div class="insight-card"><div class="insight-card-icon">👥</div><div class="insight-card-content"><div class="insight-card-title">Destaque ${i+1}</div><div class="insight-card-detail">${h.detail || h}</div></div></div>`
                     ).join('') + '</div>';
                 }
