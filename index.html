@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INOVA Energy — LinkedIn Analytics</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-green: #006B3F;
+            --accent-green: #00A86B;
+            --bg-dark: #0f1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --success: #00A86B;
+            --danger: #f85149;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary-green), var(--accent-green));
+            padding: 1.25rem 2rem;
+            box-shadow: 0 4px 12px rgba(0, 107, 63, 0.25);
+        }
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .header-logo {
+            background: white;
+            border-radius: 6px;
+            padding: 6px 12px;
+            display: flex;
+            align-items: center;
+        }
+        .header-logo img {
+            height: 44px;
+            width: auto;
+            display: block;
+        }
+        .header-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.6rem;
+        }
+        .header-subtitle {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.85);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        /* Period controls */
+        .period-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .period-label {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.75);
+            font-weight: 500;
+            margin-right: 0.25rem;
+        }
+        .period-btn {
+            padding: 0.3rem 0.75rem;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.25);
+            color: rgba(255,255,255,0.9);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .period-btn:hover { background: rgba(255,255,255,0.22); }
+        .period-btn.active {
+            background: rgba(255,255,255,0.95);
+            color: var(--primary-green);
+            font-weight: 700;
+            border-color: white;
+        }
+        .custom-range {
+            display: none;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .custom-range.visible { display: flex; }
+        .custom-range input[type="date"] {
+            padding: 0.3rem 0.6rem;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            color-scheme: dark;
+        }
+        .custom-range span { color: rgba(255,255,255,0.7); font-size: 0.8rem; }
+        .apply-btn {
+            padding: 0.3rem 0.75rem;
+            background: rgba(255,255,255,0.95);
+            color: var(--primary-green);
+            border: none;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .range-display {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.7);
+            margin-top: 0.2rem;
+        }
+        /* Layout */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .kpi-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .kpi-card:hover {
+            border-color: var(--accent-green);
+            box-shadow: 0 0 20px rgba(0, 168, 107, 0.15);
+        }
+        .kpi-label {
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.4rem;
+            font-weight: 600;
+        }
+        .kpi-value {
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            margin-bottom: 0.3rem;
+        }
+        .kpi-delta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        /* Tabs */
+        .tabs-nav {
+            display: flex;
+            gap: 0.25rem;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .tab-button {
+            padding: 0.65rem 1.25rem;
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            transition: all 0.2s;
+        }
+        .tab-button:hover { color: var(--text-primary); }
+        .tab-button.active {
+            color: var(--accent-green);
+            border-bottom-color: var(--accent-green);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        /* Charts */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .chart-container {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            position: relative;
+            height: 320px;
+        }
+        .chart-container.small { height: 280px; }
+        /* Table */
+        .table-container {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+        .table-responsive { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        thead { background: rgba(0, 168, 107, 0.1); }
+        th {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-size: 0.8rem;
+            color: var(--accent-green);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        td {
+            padding: 0.75rem 1rem;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+        tr:hover td { background: rgba(255,255,255,0.02); }
+        /* Analysis */
+        .summary-block {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-left: 3px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        .section-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 2rem 0 1rem;
+        }
+        .insights-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .insight-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            display: flex;
+            gap: 1rem;
+        }
+        .insight-card-icon { font-size: 1.5rem; flex-shrink: 0; }
+        .insight-card-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.3rem; }
+        .insight-card-detail { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+        .post-insight {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        .benchmark-note {
+            padding: 1rem;
+            background: rgba(0,168,107,0.08);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .status-badge.above { background: rgba(0,168,107,0.2); color: var(--success); }
+        .status-badge.below { background: rgba(248,81,73,0.2); color: var(--danger); }
+        .status-badge.equal { background: rgba(139,148,158,0.2); color: var(--text-secondary); }
+        .recommendations-list ol { padding-left: 1.5rem; }
+        .recommendations-list li {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .no-data {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+        .error {
+            background: rgba(248,81,73,0.1);
+            border: 1px solid var(--danger);
+            color: var(--danger);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .section { margin-top: 2rem; }
+        @media (max-width: 700px) {
+            .header-content { flex-direction: column; align-items: flex-start; }
+            .header-right { align-items: flex-start; }
+            .charts-grid { grid-template-columns: 1fr; }
+            .chart-container { height: 260px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="data:image/png;base64,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+XpoPCNifCadQtrm+up5r1Ytf9+2b93fO+LwFud44HebVHaT/tbLrYVJOfB5Ocf1MOY4xDxnqd43PdfKre8c3nc3bPvJrmvixmdGXqRTXmNqmTavnQUkuZ0l76ulf9R5/97a3fDdb9wwI7a/s0tCz0W8K2ONenykv7ntF9n9w/2gezzH3iwDY9l5EW85NkO7EowqAMX6DhP3sS3JiNaNYM/5j5rQ9Ox/7vtt6DWV83Og71k/OTlO4f7acsz2/VZsq8kb+zu261xme5307GNUQannu/+y797q+f4aBfC+irV9ZYJu7N7iHA/8foMTDHlTaOzrubCzm+2W621wV685rocRxyHqOUv1vum877d998GouEdepFNeag/mzufahf99BdF2gWzwAZSB/S07N+agwvbQz8Q+PjLhQRs+dyODV7sgO9935LUzuKDb8731bqoR32HkdjcrZvfdZz/JwG5Knc8N7mLY+nz3uTB6GwcehznvtzHXVM7Pge51ddAYohTurynHTG63zk393NbrJufrpGcfYwtK3ULs0IJot8b40AJ4N45sygQDt6VRdnsh+1viJj8v57oeOu/blWBEPWep3jdy89k/elzzrpf5LFIdv3rvuytIbtOeWWfrzARhZoP27AZfeMVZdcJI/fb+nw78aHvGnQcDZ6lQPz49hk41emMxt0NmUFHa7u/e+0+UYjiU+rEJM0v8ItsXPHogIq/2XUc9sWisWTFoG+72zEK7Xr3HbOb7bfA1lfNzIDwj29fVN95wRrABptxfg46Zb9ZwaW//h4mfS+H6neP3YrCe7/6N937ooqDd4zR51qW+c5BxmSCGH0TkA+/92DWNRv0Gp3I9bIklmXOW0nEaa2yC8dR770a+uitCahl64XcLZNprArS3/7sfvoJx94H2oPdd000tOA590Ka2mFpq8agJU+t93fnnp957J501MmR/khFjEb45F2Ga834bc2xyfg50n5FDC6WlmnpPjD3WuV0nh5p8nYUEQKswt9QywTY/SFMQ3ZTvPhgRc9vYayiV66EbS2rnLPZxan+HR5rTQr+ltaGEtU/47yMyv6Hahau7Yb7jQ7dTpFBQ7q6fINJc4JubJulEYe7vEOacftb6p9+lqV36WUTEe/+Bc+5VK55NkvHBltqnbtwa98OcNW2p3m+pxjVE7GfkYCU8I/bI+To5VDvmKdfZz9L0Rd94INOSg0PjGLP9VM7x04iVvVOlcj10Y0nlnPVtM8Zx+k5utmy8cs79EN7z3SGte0tIMPYuFqO4ffQI3Xu6NfBtb8vNQnRyDL/D1uRiY2SSoVGY7H5m0D0Qumv01r6EguWQ45fq/ZZqXEPEfkbuVcIzYqCcr5NDHXqddT8z9VhSJkhDKtfDoZ+NLepx8t7/4Jx7Kjefr5tKnmfOOZHmN/87GZlwpDYGI4Z27WqMmi+rfpJZ2NK9JytW3yEUutoPgy+2JQTe+w+kp7tUZ3t35WbN8KR+9iFpad9Lc/YXTvV+SzWuIWI/I3cq4RkxQs7XyaEOvc60rk3KBGlI5XoQSfucRT9OoXWrW4ZoeyBNAvKLc+7F0B0voQVjTj+Egh7kz8GX3VrHL6TJgrsDNR9JU5h+IDeb80wZf4duf86dfS/7WjKcc69a1+THcvNhdUhf+x/k5nd8dOD2JsWQ6P2WalxDzPpDW8Iz4gA5XydTtAs6U66zlAuB2yztHI+R6vWQ2jmb5TiFcSc/iPxZ6SPSPGe75ZBHzrkX3vt/7tvmElow2s05MZrB2tvP8QEYU3fGgn9675/21cJ7778LWbT2gLtDWX6HG02jA2f0+Kfc7ML0vnPuVSjIPWn9+60C3Ejd1o8nve/Sl+r9lmpcQ8R+Ru5SwjNijJyvk0O1n19TrrPuZ6Z2b6JMkIZUrofuZ1M7Z7MfJ+/9F+H1bphM5mknjkehwmenxSUYEbpytLdvObVcitrdcX5OfOrLbbL6DiEJ+UA6SYaEBZNa/zZ0Gr5t+/lObt9bcyQZqd5vqcY1RPtauRumrZ1LVveXgpyvk0Mdep113z+1goQyQRpSuR5E0j5n5sep1YVq13ZvWVqCIaI/D3D3ZM06z3DiTPt2K7H8DjdqLoY+9LYkGW1a8753ZyV5NkPhNNX7LdW4hrCMvYRnxBg5XyeH6rY8Df7uoQW2XWP688g1GtooE6QhletBJO1zlsRxCq3KN5KdfZ9ZQoLR7Rf+sXJ2+p3c/GF8orjoXO6m9B1MqeZAxPY7TH7ohYdI36JHv2pNVxhmherWOP80pOn0AKneb6nGNcQPcjP2jzXnQt+jhGfEGDlfJxuT+oSHPt7twv3HIyokuuN0Dhnv1f3skxFlgiHnqoRzHF1C14PIPOcs9/tmtOITjFDQah/Ut0XkxYAVjx/JgH7lYfvtAttdaQpZc/1Ap+zGrEb7Cp7Oua8lvakoLb9Dt/D+bOh1Fbor/dTzp7edc5rH+BO5nQi9cM59HeNHNdX7LdW4huiJXaQ5h3PEXsIzYrCcr5OWGwWlMNvdUH3X2c7CUnheta+LMSuU39JTJrgrw8oEX8uASp5CzvFczK8HkdnOWdb3TYi3vc/9vSC891tf0vSP9a3Xk13vn/KSZnrCzfZ/ifE5aS6W3zrf5TdpEoi7nfduCma++9qzj77PvNh2zKRJdDZz/39tdXykeWC2Y3574Pb3fq7n+rl1DbWOQ/f87I1n6rEZ871jf4cBcT7r2d7XIvJ+zzW+me6zL4Zfdn2HQ15h36+27PdViOvRnnPR/fzOY5ba/ZZqXGM+t+Uc9sYuzQ/Nk/D393v+bn5/HXDM2sfhVYzPZX6dPNh3zsL7eu/58D27n38mIg8679v2W/xg6Pfa8R3uyu1n4m89197mudp9rxejMsHA7xe97HbI9Tbn9TDmOMQ8Z6neN+G9T3Z8x4979v2bdMrOvZ8deZEe8uq9+KZeoGM/F07uth+oba8b79+z/btbTuqQV5EJRnhfXwF553UyNJ6px2bs9475HQbGuq3wPuT1U7j23+6Ja2uhf2Kc3WN6yGtfgpHU/ZZqXGM+J7sTxV2vyQlGzPvrgGM2R4KR7XXS812nxDn1mXbrWpv6kmllghvXnsU5HvjdskkwYl8PY45D7HOW4n3TvaY178Piu0ht+GaAyrsyfIrDT+R2s9Su7f/uvX9XDpydpzTe+6cyfEG3n+X2TAXmrL+Db+bkHntd/Swin/hmmrmffTOouztv9d5m1jF80/z6F7k9pd1Y3YX8+vaV5P2WalxDhNinXGuH7jf7Z8RYOV8nQXc67FEmXGc/iMjffNMfXcWEMsGoa6+AczybFK6HEEfsc5b7ffOriHwwdHuLSTBERLz3v4YTtDlJ3ULMz+Hf/+In9lXzzdzBTpoE5als76f2Xfj7B977vsG4xfDNgiy7bozfpZnZ6N1QED5kurkorL9D67p6KtsHan0T/v63EMeN94Uf1G6S8Uo5yfg9xPoXaX68n8r+RH0T9+be+4sfONNFqvdbqnEN0bnWtl3vm7hVfrys7y8ruV4nrYLYJ9KfHP4sewruA55pv4a/veu9/8DrzHzXjWFfmWDji9a1N2oq5VzP8dxSuB56YlE9ZyneN977v8nuZ/3v4W//9N6Pet670ESCHmGg7J8DCsNJBQAAQOKcc+1C7lOvNIsi9ltUCwYAAACAuEgwdhs3JRcAAACwcCQYW4Q5sW+sgGgVCwAAAJALEoztvu78f9XZCgAAABDHiBXaEQEJRg/n3AtRXikSAAAAs3nU+f+HTJ+OkRYxi1SYDeptacZR/BCm6+y+531pxlw86/5Nmum+6CIFAACQkFDG+71dEdydBTQYPAU6DveWdQAz+njzH84Nnm32d2nm/iW5AAAASM/bIvKxc67btb3tC5KLedFFartvJMJKkQAAAJjNd957VlSf2SK6SImIhNWKN92guv3yNp6KNCslzhUXAAAApnHOPZKmO9TbnT89FZGfqSi2sZgEAwAAAEB8dJECAAAAoIYEAwAAAIAaEgwAAAAAakgwAAAAAKghwQAAAACghgQDAAAAgBoSDAAAAABqSDAAAAAAqCHBAAAAAKCGBAMAAACAGhIMAAAAAGpIMAAAAACoIcEAAAAAoIYEAwAAAIAaEgwAAAAAakgwAAAAAKghwQAAAACghgQDAAAAgBoSDAAAAABqSDAAAAAAqCHBAAAAAKCGBAMAAACAGhIMAAAAAGpIMAAAAACoIcEAAAAAoIYEAwAAAIAaEgwAAAAAakgwAAAAAKghwQAAAACghgQDAAAAgBoSDAAAAABqSDAAAAAAqCHBAAAAAKCGBAMAAACAGhIMAAAAAGpIMAAAAACoIcEAAAAAoIYEAwAAAIAaEgwAAAAAakgwAAAAAKghwQAAAACghgQDAAAAgBoSDAAAAABq/j9d8gVcxtHSnwAAAABJRU5ErkJggg==" alt="INOVA Energy">
+            </div>
+            <div class="header-right">
+                <span class="header-subtitle">Dashboard de Performance — LinkedIn</span>
+                <div class="period-controls" id="periodControls">
+                    <span class="period-label">Período:</span>
+                    <button class="period-btn" data-range="2weeks">Últimas 2 sem.</button>
+                    <button class="period-btn active" data-range="month">Mês atual</button>
+                    <button class="period-btn" data-range="quarter">3 meses</button>
+                    <button class="period-btn" data-range="all">Todo</button>
+                    <button class="period-btn" data-range="custom">Personalizado</button>
+                </div>
+                <div class="custom-range" id="customRange">
+                    <span>De:</span>
+                    <input type="date" id="dateStart">
+                    <span>Até:</span>
+                    <input type="date" id="dateEnd">
+                    <button class="apply-btn" onclick="applyCustomRange()">Aplicar</button>
+                </div>
+                <div class="range-display" id="rangeDisplay">Carregando...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="kpi-grid" id="kpiGrid"></div>
+
+        <div class="tabs-nav">
+            <button class="tab-button active" data-tab="overview">Visão Geral</button>
+            <button class="tab-button" data-tab="content">Conteúdo</button>
+            <button class="tab-button" data-tab="audience">Audiência</button>
+            <button class="tab-button" data-tab="visitors">Visitantes</button>
+            <button class="tab-button" data-tab="analysis">Análise</button>
+        </div>
+
+        <div id="overview" class="tab-content active">
+            <div class="charts-grid">
+                <div class="chart-container"><canvas id="impressionsChart"></canvas></div>
+                <div class="chart-container"><canvas id="engagementChart"></canvas></div>
+            </div>
+            <div class="chart-container"><canvas id="followersChart"></canvas></div>
+        </div>
+
+        <div id="content" class="tab-content">
+            <div class="table-container">
+                <div class="table-responsive">
+                    <table id="contentTable">
+                        <thead>
+                            <tr>
+                                <th>Título</th><th>Data</th><th>Impressões</th>
+                                <th>Cliques</th><th>Reações</th><th>Comentários</th>
+                                <th>Compartilhamentos</th><th>Engajamento</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contentTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="postsInsights"></div>
+        </div>
+
+        <div id="audience" class="tab-content">
+            <div class="charts-grid">
+                <div class="chart-container"><canvas id="locationsChart"></canvas></div>
+                <div class="chart-container"><canvas id="functionsChart"></canvas></div>
+            </div>
+            <div class="charts-grid">
+                <div class="chart-container small"><canvas id="experienceChart"></canvas></div>
+                <div class="chart-container"><canvas id="sectorsChart"></canvas></div>
+            </div>
+            <div class="chart-container"><canvas id="companySizeChart"></canvas></div>
+        </div>
+
+        <div id="visitors" class="tab-content">
+            <div class="charts-grid">
+                <div class="chart-container"><canvas id="pageViewsChart"></canvas></div>
+                <div class="chart-container"><canvas id="uniqueVisitorsChart"></canvas></div>
+            </div>
+            <div class="section">
+                <h3 class="section-title">Demográficos de Visitantes</h3>
+                <div class="charts-grid">
+                    <div class="chart-container"><canvas id="visitorLocationsChart"></canvas></div>
+                    <div class="chart-container"><canvas id="visitorFunctionsChart"></canvas></div>
+                </div>
+                <div class="charts-grid">
+                    <div class="chart-container small"><canvas id="visitorExperienceChart"></canvas></div>
+                    <div class="chart-container"><canvas id="visitorSectorsChart"></canvas></div>
+                </div>
+                <div class="chart-container"><canvas id="visitorCompanySizeChart"></canvas></div>
+            </div>
+        </div>
+
+        <div id="analysis" class="tab-content">
+            <div id="analysisContent"></div>
+        </div>
+    </div>
+
+    <!-- Carrega dados como variável JS (compatível com file://) -->
+    <script src="linkedin_data.js"></script>
+    <script>
+        // ─── CONFIG BASE DOS GRÁFICOS ─────────────────────────────────────────
+        const BASE_CFG = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { labels: { color: '#8b949e', font: { size: 11 } } },
+                title: { display: false, color: '#e6edf3', font: { size: 12, weight: '600' }, padding: { bottom: 12 } }
+            },
+            scales: {
+                x: { ticks: { color: '#8b949e' }, grid: { color: '#30363d' }, border: { color: '#30363d' } },
+                y: { ticks: { color: '#8b949e' }, grid: { color: '#30363d' }, border: { color: '#30363d' } }
+            }
+        };
+
+        function cfgWithTitle(title, extra = {}) {
+            return { ...BASE_CFG, ...extra, plugins: { ...BASE_CFG.plugins, ...extra.plugins, title: { ...BASE_CFG.plugins.title, display: true, text: title }, legend: extra.plugins?.legend ?? BASE_CFG.plugins.legend } };
+        }
+
+        let rawData = null;
+        let charts = {};
+        let currentStartDate = null;
+        let currentEndDate = null;
+        let activeRange = 'month';
+
+        // ─── CARREGAMENTO DE DADOS ────────────────────────────────────────────
+        async function loadData() {
+            if (window.LINKEDIN_DATA) {
+                rawData = window.LINKEDIN_DATA;
+                initializeDashboard();
+                return;
+            }
+            try {
+                const resp = await fetch('linkedin_data.json').catch(() => fetch('./linkedin_data.json'));
+                if (!resp.ok) throw new Error('Arquivo não encontrado');
+                rawData = await resp.json();
+                initializeDashboard();
+            } catch (e) {
+                document.body.innerHTML = `<div class="container" style="margin-top:2rem"><div class="error"><strong>Erro ao carregar dados:</strong> ${e.message}<p style="margin-top:1rem">Certifique-se de que <code>linkedin_data.js</code> e <code>linkedin_data.json</code> estão na mesma pasta do <code>index.html</code>.</p></div></div>`;
+            }
+        }
+
+        // ─── UTILIDADES DE DATA ───────────────────────────────────────────────
+        function parseLinkedInDate(str) {
+            // Suporta MM/DD/YYYY e YYYY-MM-DD
+            if (!str) return null;
+            if (str.includes('-')) {
+                const [y, m, d] = str.split('-');
+                return new Date(+y, +m - 1, +d);
+            }
+            const [m, d, y] = str.split('/');
+            return new Date(+y, +m - 1, +d);
+        }
+
+        function formatDisplayDate(dt) {
+            return dt.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+        }
+
+        function formatChartDate(str) {
+            const dt = parseLinkedInDate(str);
+            if (!dt) return str;
+            return dt.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+        }
+
+        // ─── INICIALIZAÇÃO ────────────────────────────────────────────────────
+        function initializeDashboard() {
+            // Descobre range total dos dados
+            const allDays = getAllDailyContent();
+            if (!allDays.length) { document.getElementById('rangeDisplay').textContent = 'Sem dados'; return; }
+
+            const dates = allDays.map(d => parseLinkedInDate(d.date)).filter(Boolean).sort((a,b) => a-b);
+            const minDate = dates[0];
+            const maxDate = dates[dates.length - 1];
+
+            // Preenche inputs de data
+            document.getElementById('dateStart').max = document.getElementById('dateEnd').max = maxDate.toISOString().slice(0,10);
+            document.getElementById('dateStart').min = document.getElementById('dateEnd').min = minDate.toISOString().slice(0,10);
+            document.getElementById('dateStart').value = minDate.toISOString().slice(0,10);
+            document.getElementById('dateEnd').value = maxDate.toISOString().slice(0,10);
+
+            // Configura botões
+            document.querySelectorAll('.period-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    activeRange = btn.dataset.range;
+                    const cr = document.getElementById('customRange');
+                    if (activeRange === 'custom') cr.classList.add('visible');
+                    else { cr.classList.remove('visible'); applyRange(activeRange, maxDate); }
+                });
+            });
+
+            applyRange('month', maxDate);
+        }
+
+        function applyRange(range, refDate) {
+            const allDays = getAllDailyContent().map(d => parseLinkedInDate(d.date)).filter(Boolean).sort((a,b) => a-b);
+            const maxDate = refDate || allDays[allDays.length - 1];
+            const minDate = allDays[0];
+            let start, end;
+            end = maxDate;
+            if (range === '2weeks') { start = new Date(maxDate); start.setDate(start.getDate() - 13); }
+            else if (range === 'month') { start = new Date(maxDate.getFullYear(), maxDate.getMonth(), 1); }
+            else if (range === 'quarter') { start = new Date(maxDate); start.setMonth(start.getMonth() - 2); start.setDate(1); }
+            else { start = minDate; end = maxDate; } // 'all'
+            currentStartDate = start;
+            currentEndDate = end;
+            renderDashboard();
+        }
+
+        function applyCustomRange() {
+            const s = document.getElementById('dateStart').value;
+            const e = document.getElementById('dateEnd').value;
+            if (!s || !e) return;
+            currentStartDate = parseLinkedInDate(s);
+            currentEndDate = parseLinkedInDate(e);
+            renderDashboard();
+        }
+
+        // ─── EXTRAÇÃO DE DADOS FILTRADOS ─────────────────────────────────────
+        function getAllDailyContent() {
+            const out = [];
+            for (const m of Object.values(rawData.months || {})) out.push(...(m.content?.daily || []));
+            return out;
+        }
+
+        function getAllDailyFollowers() {
+            const out = [];
+            for (const m of Object.values(rawData.months || {})) out.push(...(m.followers?.daily || []));
+            return out;
+        }
+
+        function getAllDailyVisitors() {
+            const out = [];
+            for (const m of Object.values(rawData.months || {})) out.push(...(m.visitors?.daily || []));
+            return out;
+        }
+
+        function filterByRange(days) {
+            return days.filter(d => {
+                const dt = parseLinkedInDate(d.date);
+                return dt && dt >= currentStartDate && dt <= currentEndDate;
+            }).sort((a,b) => parseLinkedInDate(a.date) - parseLinkedInDate(b.date));
+        }
+
+        function getDemographicsForRange() {
+            // Retorna snapshot do mês mais recente dentro do range
+            const monthKeys = Object.keys(rawData.months || {}).sort();
+            let best = null;
+            for (const mk of monthKeys) {
+                const [y, m] = mk.split('-').map(Number);
+                const monthStart = new Date(y, m - 1, 1);
+                const monthEnd = new Date(y, m, 0);
+                if (monthStart <= currentEndDate && monthEnd >= currentStartDate) best = mk;
+            }
+            if (!best) return { followers: {}, visitors: {} };
+            return {
+                followers: rawData.months[best]?.followers?.demographics || {},
+                visitors: rawData.months[best]?.visitors?.demographics || {}
+            };
+        }
+
+        function getAnalysisForRange() {
+            const monthKeys = Object.keys(rawData.analysis || {}).sort();
+            let best = null;
+            for (const mk of monthKeys) {
+                const [y, m] = mk.split('-').map(Number);
+                const monthStart = new Date(y, m - 1, 1);
+                const monthEnd = new Date(y, m, 0);
+                if (monthStart <= currentEndDate && monthEnd >= currentStartDate) best = mk;
+            }
+            return best ? rawData.analysis[best] : null;
+        }
+
+        function getPostsForRange() {
+            const allPosts = [];
+            for (const m of Object.values(rawData.months || {})) allPosts.push(...(m.content?.posts || []));
+            return allPosts.filter(p => {
+                const dt = parseLinkedInDate(p['Criação'] || '');
+                return dt && dt >= currentStartDate && dt <= currentEndDate;
+            });
+        }
+
+        function computeKPIs(contentDays, followerDays, visitorDays) {
+            const sum = (arr, key) => arr.reduce((a,b) => a + (b[key] || 0), 0);
+            const impressions = sum(contentDays, 'Impressões (total)');
+            const clicks = sum(contentDays, 'Cliques (total)');
+            const reactions = sum(contentDays, 'Reações (total)');
+            const comments = sum(contentDays, 'Comentários (total)');
+            const shares = sum(contentDays, 'Compartilhamentos (total)');
+            const newFollowers = sum(followerDays, 'total');
+            const pageViews = sum(visitorDays, 'Total de visualizações da página (total)');
+            const uniqueVisitors = sum(visitorDays, 'Total de visitantes únicos (total)');
+            const avgEngagement = impressions > 0 ? (reactions + clicks + comments + shares) / impressions : 0;
+            return { impressions, clicks, reactions, comments, shares, newFollowers, pageViews, uniqueVisitors, avgEngagement };
+        }
+
+        // ─── RENDERIZAÇÃO PRINCIPAL ───────────────────────────────────────────
+        function renderDashboard() {
+            const contentDays = filterByRange(getAllDailyContent());
+            const followerDays = filterByRange(getAllDailyFollowers());
+            const visitorDays = filterByRange(getAllDailyVisitors());
+            const kpis = computeKPIs(contentDays, followerDays, visitorDays);
+            const demo = getDemographicsForRange();
+            const analysis = getAnalysisForRange();
+            const posts = getPostsForRange();
+
+            document.getElementById('rangeDisplay').textContent =
+                `${formatDisplayDate(currentStartDate)} → ${formatDisplayDate(currentEndDate)}`;
+
+            renderKPIs(kpis);
+            renderOverviewTab(contentDays, followerDays, posts);
+            renderContentTab(posts, analysis);
+            renderAudienceTab(demo.followers);
+            renderVisitorsTab(visitorDays, demo.visitors);
+            renderAnalysisTab(analysis);
+        }
+
+        // ─── KPIs ─────────────────────────────────────────────────────────────
+        function renderKPIs(kpis) {
+            const cards = [
+                { label: 'Impressões',        value: kpis.impressions },
+                { label: 'Cliques',           value: kpis.clicks },
+                { label: 'Reações',           value: kpis.reactions },
+                { label: 'Novos Seguidores',  value: kpis.newFollowers },
+                { label: 'Taxa de Engajamento', value: (kpis.avgEngagement * 100).toFixed(2) + '%' },
+                { label: 'Visitantes Únicos', value: kpis.uniqueVisitors }
+            ];
+            document.getElementById('kpiGrid').innerHTML = cards.map(c =>
+                `<div class="kpi-card"><div class="kpi-label">${c.label}</div><div class="kpi-value">${formatNumber(c.value)}</div><div class="kpi-delta">—</div></div>`
+            ).join('');
+        }
+
+        // ─── ABA VISÃO GERAL ──────────────────────────────────────────────────
+        // Retorna arrays de cor/tamanho de ponto: vermelho e grande nos dias de post
+        function postMarkers(labels, postDateSet) {
+            const colors  = labels.map(l => postDateSet.has(l) ? '#f85149' : '#00A86B');
+            const radii   = labels.map(l => postDateSet.has(l) ? 7 : 3);
+            const borders = labels.map(l => postDateSet.has(l) ? '#ff6b6b' : '#00A86B');
+            return { colors, radii, borders };
+        }
+
+        function renderOverviewTab(contentDays, followerDays, posts) {
+            const labels = contentDays.map(d => formatChartDate(d.date));
+            const impressions = contentDays.map(d => d['Impressões (total)'] || 0);
+            const engagement  = contentDays.map(d => (d['Taxa de engajamento (total)'] || 0) * 100);
+            const followers     = followerDays.map(d => d.organic || 0);
+            const followerLabels = followerDays.map(d => formatChartDate(d.date));
+
+            // Set de datas com post (formato DD/MM para comparar com labels)
+            const postDateSet = new Set((posts || []).map(p => formatChartDate(p['Criação'] || '')).filter(Boolean));
+
+            const pm = postMarkers(labels, postDateSet);
+            const pmF = postMarkers(followerLabels, postDateSet);
+
+            // Legenda customizada nos títulos
+            const legendNote = postDateSet.size > 0 ? ' (🔴 = post publicado)' : '';
+
+            renderChart('impressionsChart', {
+                type: 'line',
+                data: { labels, datasets: [{
+                    label: 'Impressões', data: impressions,
+                    borderColor: '#00A86B', backgroundColor: 'rgba(0,168,107,0.1)',
+                    tension: 0.3, fill: true,
+                    pointBackgroundColor: pm.colors,
+                    pointBorderColor: pm.borders,
+                    pointRadius: pm.radii,
+                    pointHoverRadius: pm.radii.map(r => r + 2)
+                }] },
+                options: cfgWithTitle('Impressões Diárias' + legendNote, { plugins: { legend: { display: false } } })
+            });
+
+            renderChart('engagementChart', {
+                type: 'line',
+                data: { labels, datasets: [{
+                    label: 'Engajamento %', data: engagement,
+                    borderColor: '#00A86B', backgroundColor: 'rgba(0,168,107,0.1)',
+                    tension: 0.3, fill: true,
+                    pointBackgroundColor: pm.colors,
+                    pointBorderColor: pm.borders,
+                    pointRadius: pm.radii,
+                    pointHoverRadius: pm.radii.map(r => r + 2)
+                }] },
+                options: cfgWithTitle('Taxa de Engajamento (%)' + legendNote, { plugins: { legend: { display: false } } })
+            });
+
+            // Gráfico de barras: barra vermelha nos dias de post
+            const barColors  = followerLabels.map(l => postDateSet.has(l) ? 'rgba(248,81,73,0.75)' : 'rgba(0,168,107,0.6)');
+            const barBorders = followerLabels.map(l => postDateSet.has(l) ? '#f85149' : '#00A86B');
+            renderChart('followersChart', {
+                type: 'bar',
+                data: { labels: followerLabels, datasets: [{
+                    label: 'Novos Seguidores', data: followers,
+                    backgroundColor: barColors, borderColor: barBorders, borderWidth: 1
+                }] },
+                options: cfgWithTitle('Novos Seguidores Orgânicos por Dia' + legendNote, { plugins: { legend: { display: false } } })
+            });
+        }
+
+        // ─── ABA CONTEÚDO ─────────────────────────────────────────────────────
+        function renderContentTab(posts, analysis) {
+            const sorted = [...posts].sort((a,b) => (b['Taxa de engajamento'] || 0) - (a['Taxa de engajamento'] || 0));
+            document.getElementById('contentTableBody').innerHTML = sorted.length
+                ? sorted.map(p => {
+                    const title = (p['Título da publicação'] || '').substring(0, 55);
+                    return `<tr>
+                        <td title="${p['Título da publicação'] || ''}">${title}${(p['Título da publicação']||'').length > 55 ? '...' : ''}</td>
+                        <td>${formatChartDate(p['Criação'] || '')}</td>
+                        <td>${formatNumber(p['Impressões'] || 0)}</td>
+                        <td>${formatNumber(p['Cliques'] || 0)}</td>
+                        <td>${formatNumber(p['Gostaram'] || 0)}</td>
+                        <td>${formatNumber(p['Comentários'] || 0)}</td>
+                        <td>${formatNumber(p['Compartilhamentos'] || 0)}</td>
+                        <td>${((p['Taxa de engajamento'] || 0) * 100).toFixed(2)}%</td>
+                    </tr>`;
+                }).join('')
+                : `<tr><td colspan="8" style="text-align:center;color:var(--text-secondary)">Nenhum post no período selecionado</td></tr>`;
+
+            const insights = analysis?.postAnalysis || [];
+            document.getElementById('postsInsights').innerHTML = insights.length
+                ? insights.map(p => `<div class="post-insight"><strong>${p.title}</strong><br>${p.insight || ''}</div>`).join('')
+                : '<div class="no-data">Análise de posts disponível apenas para meses completos</div>';
+        }
+
+        // ─── ABA AUDIÊNCIA ────────────────────────────────────────────────────
+        function renderAudienceTab(demo) {
+            renderHBar('locationsChart',  demo['Localidade'] || [],          'Top 10 Localidades dos Seguidores');
+            renderHBar('functionsChart',  demo['Função'] || [],              'Funções dos Seguidores');
+            renderDonut('experienceChart', demo['Nível de experiência'] || [],'Nível de Experiência dos Seguidores');
+            renderHBar('sectorsChart',    (demo['Setor'] || []).slice(0,10), 'Top 10 Setores dos Seguidores');
+            renderBar('companySizeChart', demo['Tamanho da empresa'] || [],  'Tamanho das Empresas dos Seguidores');
+        }
+
+        // ─── ABA VISITANTES ───────────────────────────────────────────────────
+        function renderVisitorsTab(visitorDays, demo) {
+            const labels = visitorDays.map(d => formatChartDate(d.date));
+            const desktop = visitorDays.map(d => d['Total de visualizações da página (computadores)'] || 0);
+            const mobile = visitorDays.map(d => {
+                const key = Object.keys(d).find(k => k.startsWith('Total de visualizações da página (dispositivos mó'));
+                return d[key] || 0;
+            });
+            const unique = visitorDays.map(d => d['Total de visitantes únicos (total)'] || 0);
+
+            renderChart('pageViewsChart', {
+                type: 'line',
+                data: { labels, datasets: [
+                    { label: 'Desktop', data: desktop, borderColor: '#00A86B', tension: 0.3, fill: false },
+                    { label: 'Mobile',  data: mobile,  borderColor: '#006B3F', tension: 0.3, fill: false }
+                ] },
+                options: cfgWithTitle('Visualizações de Página — Desktop vs Mobile')
+            });
+
+            renderChart('uniqueVisitorsChart', {
+                type: 'line',
+                data: { labels, datasets: [{ label: 'Visitantes Únicos', data: unique, borderColor: '#00A86B', backgroundColor: 'rgba(0,168,107,0.1)', tension: 0.3, fill: true }] },
+                options: cfgWithTitle('Visitantes Únicos por Dia', { plugins: { legend: { display: false } } })
+            });
+
+            renderHBar('visitorLocationsChart', demo['Localidade'] || [],          'Localidades dos Visitantes');
+            renderHBar('visitorFunctionsChart', demo['Função'] || [],              'Funções dos Visitantes');
+            renderDonut('visitorExperienceChart', demo['Nível de experiência'] || [],'Nível de Experiência dos Visitantes');
+            renderHBar('visitorSectorsChart',   (demo['Setor'] || []).slice(0,10), 'Top 10 Setores dos Visitantes');
+            renderBar('visitorCompanySizeChart', demo['Tamanho da empresa'] || [], 'Tamanho das Empresas (Visitantes)');
+        }
+
+        // ─── ABA ANÁLISE ──────────────────────────────────────────────────────
+        function renderAnalysisTab(analysis) {
+            const el = document.getElementById('analysisContent');
+            if (!analysis) { el.innerHTML = '<div class="no-data">Análise estratégica disponível para meses completos. Selecione um período que inclua um mês inteiro.</div>'; return; }
+            let html = '';
+            if (analysis.summary) html += `<div class="summary-block"><strong>Resumo da Performance:</strong><br><br>${analysis.summary}</div>`;
+            if (analysis.trends?.length) {
+                html += '<h3 class="section-title">Tendências</h3><div class="insights-cards">';
+                html += analysis.trends.map(t => `<div class="insight-card"><div class="insight-card-icon">📈</div><div class="insight-card-content"><div class="insight-card-title">${t.title}</div><div class="insight-card-detail">${t.detail}</div></div></div>`).join('');
+                html += '</div>';
+            }
+            if (analysis.audienceInsights) {
+                html += `<h3 class="section-title">Perfil da Audiência</h3><div class="summary-block">${analysis.audienceInsights.summary || ''}</div>`;
+                if (analysis.audienceInsights.highlights?.length) {
+                    html += '<div class="insights-cards">' + analysis.audienceInsights.highlights.map((h,i) =>
+                        `<div class="insight-card"><div class="insight-card-icon">👥</div><div class="insight-card-content"><div class="insight-card-title">Destaque ${i+1}</div><div class="insight-card-detail">${h.detail || h}</div></div></div>`
+                    ).join('') + '</div>';
+                }
+            }
+            if (analysis.visitorInsights) html += `<h3 class="section-title">Insights de Visitantes</h3><div class="summary-block">${analysis.visitorInsights}</div>`;
+            if (analysis.competitiveBenchmarks) {
+                html += '<h3 class="section-title">Benchmarks Competitivos</h3>';
+                if (analysis.competitiveBenchmarks.note) html += `<div class="benchmark-note">${analysis.competitiveBenchmarks.note}</div>`;
+                html += '<div class="table-responsive"><table><thead><tr><th>Métrica</th><th>INOVA</th><th>Benchmark</th><th>Status</th></tr></thead><tbody>';
+                (analysis.competitiveBenchmarks.data || []).forEach(r => {
+                    html += `<tr><td>${r.metric}</td><td><strong>${r.inova}</strong></td><td>${r.benchmark}</td><td><span class="status-badge ${r.status}">${r.status}</span></td></tr>`;
+                });
+                html += '</tbody></table></div>';
+            }
+            if (analysis.recommendations?.length) {
+                html += '<h3 class="section-title">Recomendações</h3><div class="recommendations-list"><ol>';
+                analysis.recommendations.forEach(r => { html += `<li>${r}</li>`; });
+                html += '</ol></div>';
+            }
+            el.innerHTML = html;
+        }
+
+        // ─── HELPERS DE GRÁFICO ───────────────────────────────────────────────
+        function renderChart(id, config) {
+            const canvas = document.getElementById(id);
+            if (charts[id]) charts[id].destroy();
+            charts[id] = new Chart(canvas, config);
+        }
+
+        const COLORS = ['rgba(0,168,107,0.8)','rgba(0,107,63,0.8)','rgba(0,168,107,0.5)','rgba(0,107,63,0.5)','rgba(0,168,107,0.3)'];
+
+        function renderHBar(id, data, title) {
+            const sorted = [...(data||[])].sort((a,b) => b.value - a.value).slice(0,10);
+            renderChart(id, {
+                type: 'bar',
+                data: { labels: sorted.map(d=>d.label), datasets: [{ label: title, data: sorted.map(d=>d.value), backgroundColor: 'rgba(0,168,107,0.6)', borderColor: '#00A86B' }] },
+                options: cfgWithTitle(title, { indexAxis: 'y', plugins: { legend: { display: false } } })
+            });
+        }
+
+        function renderBar(id, data, title) {
+            renderChart(id, {
+                type: 'bar',
+                data: { labels: (data||[]).map(d=>d.label), datasets: [{ label: title, data: (data||[]).map(d=>d.value), backgroundColor: 'rgba(0,168,107,0.6)', borderColor: '#00A86B' }] },
+                options: cfgWithTitle(title, { plugins: { legend: { display: false } } })
+            });
+        }
+
+        function renderDonut(id, data, title) {
+            renderChart(id, {
+                type: 'doughnut',
+                data: { labels: (data||[]).map(d=>d.label), datasets: [{ data: (data||[]).map(d=>d.value), backgroundColor: COLORS, borderColor: '#161b22', borderWidth: 2 }] },
+                options: { ...cfgWithTitle(title), scales: {}, plugins: { ...cfgWithTitle(title).plugins, legend: { position: 'bottom', labels: { color: '#8b949e', font: { size: 10 } } } } }
+            });
+        }
+
+        // ─── FORMAT ───────────────────────────────────────────────────────────
+        function formatNumber(n) {
+            if (typeof n === 'string') return n;
+            if (n >= 1e6) return (n/1e6).toFixed(1) + 'M';
+            if (n >= 1000) return (n/1000).toFixed(1) + 'K';
+            return n.toLocaleString('pt-BR');
+        }
+
+        // ─── TABS ─────────────────────────────────────────────────────────────
+        document.querySelectorAll('.tab-button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
+
+        loadData();
+    </script>
+</body>
+</html>
