@@ -2,10 +2,11 @@ window.LINKEDIN_DATA = {
   "metadata": {
     "company": "INOVA Energy",
     "linkedinUrl": "https://www.linkedin.com/company/inova-energy",
-    "lastUpdated": "2026-05-05",
+    "lastUpdated": "2026-06-03",
     "periods": [
       "2026-03",
-      "2026-04"
+      "2026-04",
+      "2026-05"
     ]
   },
   "months": {
@@ -6150,6 +6151,3230 @@ window.LINKEDIN_DATA = {
           ]
         }
       }
+    },
+    "2026-05": {
+      "content": {
+        "daily": [
+          {
+            "date": "05/01/2026",
+            "Impressões (orgânicas)": 509.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 509.0,
+            "Impressões únicas (orgânicas)": 297.0,
+            "Cliques (orgânicos)": 156.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 156.0,
+            "Reações (orgânicas)": 8.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 8.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.32220039292730845,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.32220039292730845
+          },
+          {
+            "date": "05/02/2026",
+            "Impressões (orgânicas)": 345.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 345.0,
+            "Impressões únicas (orgânicas)": 181.0,
+            "Cliques (orgânicos)": 84.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 84.0,
+            "Reações (orgânicas)": 11.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 11.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.2753623188405797,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.2753623188405797
+          },
+          {
+            "date": "05/03/2026",
+            "Impressões (orgânicas)": 270.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 270.0,
+            "Impressões únicas (orgânicas)": 173.0,
+            "Cliques (orgânicos)": 47.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 47.0,
+            "Reações (orgânicas)": 2.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 2.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.1814814814814815,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.1814814814814815
+          },
+          {
+            "date": "05/04/2026",
+            "Impressões (orgânicas)": 323.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 323.0,
+            "Impressões únicas (orgânicas)": 183.0,
+            "Cliques (orgânicos)": 57.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 57.0,
+            "Reações (orgânicas)": 12.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 12.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.21362229102167182,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.21362229102167182
+          },
+          {
+            "date": "05/05/2026",
+            "Impressões (orgânicas)": 1694.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 1694.0,
+            "Impressões únicas (orgânicas)": 1065.0,
+            "Cliques (orgânicos)": 121.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 121.0,
+            "Reações (orgânicas)": 60.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 60.0,
+            "Comentários (orgânicos)": 1.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 1.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.10743801652892562,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.10743801652892562
+          },
+          {
+            "date": "05/06/2026",
+            "Impressões (orgânicas)": 684.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 684.0,
+            "Impressões únicas (orgânicas)": 421.0,
+            "Cliques (orgânicos)": 59.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 59.0,
+            "Reações (orgânicas)": 17.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 17.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.1111111111111111,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.1111111111111111
+          },
+          {
+            "date": "05/07/2026",
+            "Impressões (orgânicas)": 1828.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 1828.0,
+            "Impressões únicas (orgânicas)": 1196.0,
+            "Cliques (orgânicos)": 59.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 59.0,
+            "Reações (orgânicas)": 43.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 43.0,
+            "Comentários (orgânicos)": 6.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 6.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.05908096280087528,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.05908096280087528
+          },
+          {
+            "date": "05/08/2026",
+            "Impressões (orgânicas)": 628.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 628.0,
+            "Impressões únicas (orgânicas)": 338.0,
+            "Cliques (orgânicos)": 47.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 47.0,
+            "Reações (orgânicas)": 14.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 14.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.09713375796178345,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.09713375796178345
+          },
+          {
+            "date": "05/09/2026",
+            "Impressões (orgânicas)": 263.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 263.0,
+            "Impressões únicas (orgânicas)": 172.0,
+            "Cliques (orgânicos)": 20.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 20.0,
+            "Reações (orgânicas)": 8.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 8.0,
+            "Comentários (orgânicos)": 5.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 5.0,
+            "Compartilhamentos (orgânicos)": 1.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 1.0,
+            "Taxa de engajamento (orgânico)": 0.12927756653992395,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.12927756653992395
+          },
+          {
+            "date": "05/10/2026",
+            "Impressões (orgânicas)": 308.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 308.0,
+            "Impressões únicas (orgânicas)": 218.0,
+            "Cliques (orgânicos)": 24.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 24.0,
+            "Reações (orgânicas)": 9.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 9.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.10714285714285714,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.10714285714285714
+          },
+          {
+            "date": "05/11/2026",
+            "Impressões (orgânicas)": 425.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 425.0,
+            "Impressões únicas (orgânicas)": 244.0,
+            "Cliques (orgânicos)": 44.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 44.0,
+            "Reações (orgânicas)": 8.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 8.0,
+            "Comentários (orgânicos)": 1.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 1.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.12470588235294118,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.12470588235294118
+          },
+          {
+            "date": "05/12/2026",
+            "Impressões (orgânicas)": 942.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 942.0,
+            "Impressões únicas (orgânicas)": 507.0,
+            "Cliques (orgânicos)": 41.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 41.0,
+            "Reações (orgânicas)": 38.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 38.0,
+            "Comentários (orgânicos)": 1.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 1.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.08492569002123142,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.08492569002123142
+          },
+          {
+            "date": "05/13/2026",
+            "Impressões (orgânicas)": 543.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 543.0,
+            "Impressões únicas (orgânicas)": 357.0,
+            "Cliques (orgânicos)": 17.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 17.0,
+            "Reações (orgânicas)": 21.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 21.0,
+            "Comentários (orgânicos)": 1.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 1.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.0718232044198895,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.0718232044198895
+          },
+          {
+            "date": "05/14/2026",
+            "Impressões (orgânicas)": 379.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 379.0,
+            "Impressões únicas (orgânicas)": 179.0,
+            "Cliques (orgânicos)": 33.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 33.0,
+            "Reações (orgânicas)": 2.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 2.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.09234828496042216,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.09234828496042216
+          },
+          {
+            "date": "05/15/2026",
+            "Impressões (orgânicas)": 924.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 924.0,
+            "Impressões únicas (orgânicas)": 535.0,
+            "Cliques (orgânicos)": 329.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 329.0,
+            "Reações (orgânicas)": 9.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 9.0,
+            "Comentários (orgânicos)": 1.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 1.0,
+            "Compartilhamentos (orgânicos)": 1.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 1.0,
+            "Taxa de engajamento (orgânico)": 0.36796536796536794,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.36796536796536794
+          },
+          {
+            "date": "05/16/2026",
+            "Impressões (orgânicas)": 442.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 442.0,
+            "Impressões únicas (orgânicas)": 235.0,
+            "Cliques (orgânicos)": 175.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 175.0,
+            "Reações (orgânicas)": 8.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 8.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.41402714932126694,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.41402714932126694
+          },
+          {
+            "date": "05/17/2026",
+            "Impressões (orgânicas)": 257.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 257.0,
+            "Impressões únicas (orgânicas)": 163.0,
+            "Cliques (orgânicos)": 69.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 69.0,
+            "Reações (orgânicas)": 0.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 0.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.26848249027237353,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.26848249027237353
+          },
+          {
+            "date": "05/18/2026",
+            "Impressões (orgânicas)": 398.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 398.0,
+            "Impressões únicas (orgânicas)": 211.0,
+            "Cliques (orgânicos)": 71.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 71.0,
+            "Reações (orgânicas)": 7.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 7.0,
+            "Comentários (orgânicos)": 1.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 1.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.1984924623115578,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.1984924623115578
+          },
+          {
+            "date": "05/19/2026",
+            "Impressões (orgânicas)": 790.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 790.0,
+            "Impressões únicas (orgânicas)": 345.0,
+            "Cliques (orgânicos)": 73.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 73.0,
+            "Reações (orgânicas)": 17.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 17.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.11392405063291139,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.11392405063291139
+          },
+          {
+            "date": "05/20/2026",
+            "Impressões (orgânicas)": 396.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 396.0,
+            "Impressões únicas (orgânicas)": 175.0,
+            "Cliques (orgânicos)": 47.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 47.0,
+            "Reações (orgânicas)": 12.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 12.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.14898989898989898,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.14898989898989898
+          },
+          {
+            "date": "05/21/2026",
+            "Impressões (orgânicas)": 226.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 226.0,
+            "Impressões únicas (orgânicas)": 85.0,
+            "Cliques (orgânicos)": 22.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 22.0,
+            "Reações (orgânicas)": 3.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 3.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.11061946902654868,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.11061946902654868
+          },
+          {
+            "date": "05/22/2026",
+            "Impressões (orgânicas)": 625.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 625.0,
+            "Impressões únicas (orgânicas)": 369.0,
+            "Cliques (orgânicos)": 28.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 28.0,
+            "Reações (orgânicas)": 13.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 13.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.0656,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.0656
+          },
+          {
+            "date": "05/23/2026",
+            "Impressões (orgânicas)": 276.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 276.0,
+            "Impressões únicas (orgânicas)": 148.0,
+            "Cliques (orgânicos)": 24.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 24.0,
+            "Reações (orgânicas)": 6.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 6.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.10869565217391304,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.10869565217391304
+          },
+          {
+            "date": "05/24/2026",
+            "Impressões (orgânicas)": 255.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 255.0,
+            "Impressões únicas (orgânicas)": 130.0,
+            "Cliques (orgânicos)": 23.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 23.0,
+            "Reações (orgânicas)": 2.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 2.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.09803921568627451,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.09803921568627451
+          },
+          {
+            "date": "05/25/2026",
+            "Impressões (orgânicas)": 226.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 226.0,
+            "Impressões únicas (orgânicas)": 137.0,
+            "Cliques (orgânicos)": 34.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 34.0,
+            "Reações (orgânicas)": 0.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 0.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.1504424778761062,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.1504424778761062
+          },
+          {
+            "date": "05/26/2026",
+            "Impressões (orgânicas)": 216.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 216.0,
+            "Impressões únicas (orgânicas)": 125.0,
+            "Cliques (orgânicos)": 41.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 41.0,
+            "Reações (orgânicas)": 4.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 4.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.20833333333333334,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.20833333333333334
+          },
+          {
+            "date": "05/27/2026",
+            "Impressões (orgânicas)": 154.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 154.0,
+            "Impressões únicas (orgânicas)": 99.0,
+            "Cliques (orgânicos)": 40.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 40.0,
+            "Reações (orgânicas)": 0.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 0.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.2597402597402597,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.2597402597402597
+          },
+          {
+            "date": "05/28/2026",
+            "Impressões (orgânicas)": 313.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 313.0,
+            "Impressões únicas (orgânicas)": 129.0,
+            "Cliques (orgânicos)": 66.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 66.0,
+            "Reações (orgânicas)": 6.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 6.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.23003194888178913,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.23003194888178913
+          },
+          {
+            "date": "05/29/2026",
+            "Impressões (orgânicas)": 112.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 112.0,
+            "Impressões únicas (orgânicas)": 71.0,
+            "Cliques (orgânicos)": 21.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 21.0,
+            "Reações (orgânicas)": 0.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 0.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.1875,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.1875
+          },
+          {
+            "date": "05/30/2026",
+            "Impressões (orgânicas)": 83.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 83.0,
+            "Impressões únicas (orgânicas)": 62.0,
+            "Cliques (orgânicos)": 16.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 16.0,
+            "Reações (orgânicas)": 1.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 1.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.20481927710843373,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.20481927710843373
+          },
+          {
+            "date": "05/31/2026",
+            "Impressões (orgânicas)": 181.0,
+            "Impressões (patrocinadas)": 0.0,
+            "Impressões (total)": 181.0,
+            "Impressões únicas (orgânicas)": 80.0,
+            "Cliques (orgânicos)": 32.0,
+            "Cliques (patrocinados)": 0.0,
+            "Cliques (total)": 32.0,
+            "Reações (orgânicas)": 4.0,
+            "Reações (patrocinadas)": 0.0,
+            "Reações (total)": 4.0,
+            "Comentários (orgânicos)": 0.0,
+            "Comentários (patrocinados)": 0.0,
+            "Comentários (total)": 0.0,
+            "Compartilhamentos (orgânicos)": 0.0,
+            "Compartilhamentos (patrocinados)": 0.0,
+            "Compartilhamentos (total)": 0.0,
+            "Taxa de engajamento (orgânico)": 0.19889502762430938,
+            "Taxa de engajamento (patrocinado)": 0.0,
+            "Taxa de engajamento (total)": 0.19889502762430938
+          }
+        ],
+        "posts": [
+          {
+            "Título da publicação": "Queda de tensão máxima de 7% entre o ponto de entrega e qualquer carga. É o limite da NBR 5410.\n\nEm projetos industriais bem dimensionados, esse orçamento é distribuído: até 3% no alimentador principal, até 4% nos circuitos terminais — garantindo folga para regimes variáveis de carga.\nO problema: a maioria dos projetos elétricos de menor custo dimensiona os condutores apenas pelo critério de capacidade de corrente. O critério de queda de tensão não é verificado.\n\n⚡ Em percursos industriais longos — 80, 100, 150 metros — é rotineiro o critério de queda de tensão exigir uma seção maior do que o critério de corrente. Quando o projeto usa o cabo menor (conforme por corrente, mas fora por queda de tensão), o efeito é sutil no início: quedas de eficiência em motores, aquecimento progressivo de condutores, vida útil reduzida de inversores de frequência. Torna-se crítico com o tempo — e raramente é rastreado até o projeto original.\n\nO dimensionamento elétrico correto verifica três critérios de forma simultânea. O condutor escolhido precisa satisfazer os três:\n\n🔩 Critério 1 — Capacidade de corrente (NBR 5410):\nA seção mínima que mantém a temperatura do condutor abaixo do limite do isolamento — 70°C para PVC, 90°C para XLPE. Este critério já inclui fatores de correção obrigatórios: temperatura ambiente diferente de 30°C e agrupamento de cabos no eletroduto. Ignorar esses fatores de correção reduz a capacidade real do condutor sem reduzir a corrente de projeto.\n\n🔩 Critério 2 — Queda de tensão:\nCalculada com a resistividade real do condutor (cobre: 0,0171 Ω·mm²/m a 20°C, corrigida pela temperatura de operação), comprimento do percurso e corrente de projeto. Em percursos longos ou cargas sensíveis — equipamentos eletrônicos, inversores, CLP — este critério frequentemente define a seção final, sobrepondo o resultado do Critério 1.\n\n🔩 Critério 3 — Coordenação com o dispositivo de proteção:\nA corrente nominal do disjuntor deve ser compatível com a corrente admissível do condutor: um disjuntor superdimensionado em relação ao cabo protege o equipamento, mas não protege o condutor. O cabo sobreaquece sem que o disjuntor atue. Este é o mecanismo de degradação silenciosa que antecede a maioria das falhas elétricas por sobrecarga crônica.\n\nO memorial de cálculo que documenta esses três critérios — com as premissas explícitas, os fatores de correção aplicados e as seções resultantes — é o que diferencia um projeto elétrico de uma lista de materiais com diagrama.\nÉ o documento que qualquer engenheiro, dez anos depois, consegue auditar, manter e expandir com segurança.\n\nPara quem faz ou revisa projetos elétricos industriais: qual desses três critérios você vê negligenciado com mais frequência nos projetos que chegam para revisão ou diagnóstico?\n\n#ProjetosElétricos #NBR5410 #DimensionamentoElétrico #EngenhariaElétrica #InstalaçõesIndustriais #INOVA",
+            "Link da publicação": "https://www.linkedin.com/feed/update/urn:li:activity:7463595570876710913",
+            "Tipo de publicação": "Orgânico",
+            "Nome da campanha": "",
+            "Publicada por": "Karine Pinheiro",
+            "Criação": "05/22/2026",
+            "Data de início da campanha": "",
+            "Data de término da campanha": "",
+            "Público": "Todos os seguidores",
+            "Impressões": 1017.0,
+            "Visualizações": "",
+            "Visualizações fora do site": "",
+            "Cliques": 22.0,
+            "Taxa de cliques (CTR)": 0.021632252261042595,
+            "Gostaram": 18.0,
+            "Comentários": 0.0,
+            "Compartilhamentos": 4.0,
+            "Seguidores": "",
+            "Taxa de engajamento": 0.04326450452208519,
+            "Tipo de conteúdo": ""
+          },
+          {
+            "Título da publicação": "Existe um critério técnico que a NBR 5410 exige — e que desaparece do projeto elétrico assim que o cliente pede desconto.\n\nChama-se estudo de coordenação e seletividade.\n\nO que ele faz: garante que, em caso de falha em qualquer ponto da instalação, apenas o trecho com defeito seja isolado. O disjuntor do circuito terminal atua. O do quadro de distribuição, não. O alimentador principal, menos ainda.\n\nQuando esse estudo não é feito, o sistema de proteção não tem hierarquia. Uma falta em qualquer ponto pode desligar o quadro geral. Uma sobrecarga em um setor para a planta inteira.\n\nA equipe de manutenção então troca dispositivo por dispositivo — sem chegar à causa raiz, porque a causa raiz está no projeto, não no componente.\n\n⚡ O corte no estudo de coordenação não elimina o custo. Ele transforma um custo de projeto em custo de manutenção corretiva — e em parada de processo.\nProjeto elétrico sem seletividade não é projeto. É um diagrama de onde passa o cabo.\n\nPara quem atua na área: qual foi a última vez que você recebeu um projeto elétrico industrial com curvas de coordenação devidamente verificadas?\n\n#ProjetosElétricos #EngenhariaElétrica #InstalaçõesIndustriais #NBR5410 #INOVA",
+            "Link da publicação": "https://www.linkedin.com/feed/update/urn:li:activity:7462593133411745792",
+            "Tipo de publicação": "Orgânico",
+            "Nome da campanha": "",
+            "Publicada por": "Karine Pinheiro",
+            "Criação": "05/19/2026",
+            "Data de início da campanha": "",
+            "Data de término da campanha": "",
+            "Público": "Todos os seguidores",
+            "Impressões": 854.0,
+            "Visualizações": "",
+            "Visualizações fora do site": "",
+            "Cliques": 26.0,
+            "Taxa de cliques (CTR)": 0.03044496476650238,
+            "Gostaram": 20.0,
+            "Comentários": 0.0,
+            "Compartilhamentos": 5.0,
+            "Seguidores": "",
+            "Taxa de engajamento": 0.05971897020936012,
+            "Tipo de conteúdo": ""
+          },
+          {
+            "Título da publicação": "Temos orgulho em participar deste importante empreendimento atuando como Engenharia do Proprietário do Complexo Grande Sertão II, da Matrix Energia — um projeto com 105 MWp de capacidade instalada com mais de 140 mil módulos fotovoltaicos no norte de Minas Gerais.\n\nCom 100% da capacidade já contratada no mercado livre, Grande Sertão II liderou o Ranking Operacional Solar da ePowerBay (fevereiro/2026), com as 3 centrais do complexo figurando nas 3 primeiras posições dentre os 20 parques fotovoltaicos com maior fator de capacidade médio do Brasil, chegando a 31,7%.\n\nA INOVA atuou no empreendimento com equipes dedicadas às disciplinas de engenharia civil, elétrica, eletromecânica, qualidade e recebimento de equipamentos (incluindo FAT), SST, meio ambiente e comissionamento, contribuindo tecnicamente nas atividades de implantação e no controle da qualidade executiva do projeto.\n\nSeguimos comprometidos em entregar soluções de engenharia com excelência técnica, segurança e foco em performance operacional, apoiando nossos clientes em todas as etapas de desenvolvimento e implantação de ativos de grande porte.\n\nParabenizamos a Matrix Energia e todos os profissionais envolvidos por mais este importante marco para o setor elétrico brasileiro.\n\n#EngenhariaDoProprietário #EnergiaSolar #OwnerEngineer #GerenciamentoDeObras #Infraestrutura",
+            "Link da publicação": "https://www.linkedin.com/feed/update/urn:li:activity:7461008571682516993",
+            "Tipo de publicação": "Orgânico",
+            "Nome da campanha": "",
+            "Publicada por": "Karine Pinheiro",
+            "Criação": "05/15/2026",
+            "Data de início da campanha": "",
+            "Data de término da campanha": "",
+            "Público": "Todos os seguidores",
+            "Impressões": 1529.0,
+            "Visualizações": "",
+            "Visualizações fora do site": "",
+            "Cliques": 889.0,
+            "Taxa de cliques (CTR)": 0.5814257860183716,
+            "Gostaram": 17.0,
+            "Comentários": 0.0,
+            "Compartilhamentos": 2.0,
+            "Seguidores": "",
+            "Taxa de engajamento": 0.593852162361145,
+            "Tipo de conteúdo": ""
+          },
+          {
+            "Título da publicação": "1.400 MW de geração. 80.000 toneladas de hidrogênio de baixo carbono por ano. Um corredor de exportação Brasil–Alemanha.\n\nNa Hannover Messe 2026, o projeto Morro Pintado, da Brazil Green Energy (BGE), alcançou dois marcos simultâneos: a assinatura do contrato de parceria no programa H2Uppp — iniciativa do Ministério Federal Alemão de Energia, implementada pela GIZ — e o recebimento da licença ambiental prévia para viabilização do empreendimento em Areia Branca, Rio Grande do Norte.\n\nO consórcio reúne BGE, Deutsche Bahn, thyssenkrupp Uhde, Green Investors AG e GIZ. A proposta é concreta: construir uma cadeia de valor Brasil–Alemanha para hidrogênio verde e combustíveis PtX — com entregas de amônia verde ou e-metanol produzidos no semiárido nordestino direto para o mercado europeu. A DB tem um prazo claro: frota net-zero até 2040.\n\nA INOVA participou da elaboração dos estudos e projetos de engenharia que sustentaram a fase de licenciamento ambiental deste empreendimento. Cada entrega técnica foi uma peça para que a licença pudesse ser emitida — e ela saiu no palco da maior feira industrial do mundo.\n\nVer o Brasil sendo reconhecido como hub global de energia limpa, com um projeto que conecta o sertão do RN ao mercado europeu, é exatamente o tipo de resultado que motiva o nosso trabalho.\n\nParabéns à equipe da Brazil Green Energy pela conquista. Agradecemos a confiança e desejamos pleno sucesso nas próximas etapas. 🌿\nQue venha a construção.\n\n👉 Post completo da BGE no 1º comentário.\n\ncomercial@inovaenergy.com.br\n\n#HidrogênioVerde #EnergiaLimpa #Descarbonização #EngenhariaDeEnergia #INOVAEnergy",
+            "Link da publicação": "https://www.linkedin.com/feed/update/urn:li:activity:7460048694097244160",
+            "Tipo de publicação": "Orgânico",
+            "Nome da campanha": "",
+            "Publicada por": "Karine Pinheiro",
+            "Criação": "05/12/2026",
+            "Data de início da campanha": "",
+            "Data de término da campanha": "",
+            "Público": "Todos os seguidores",
+            "Impressões": 1405.0,
+            "Visualizações": "",
+            "Visualizações fora do site": "",
+            "Cliques": 37.0,
+            "Taxa de cliques (CTR)": 0.026334520429372787,
+            "Gostaram": 43.0,
+            "Comentários": 2.0,
+            "Compartilhamentos": 9.0,
+            "Seguidores": "",
+            "Taxa de engajamento": 0.06476868689060211,
+            "Tipo de conteúdo": ""
+          },
+          {
+            "Título da publicação": "7 dos 40 parques renováveis de maior fator de capacidade do Brasil.\nA INOVA atuou na fiscalização de cada um.\n\nO Ranking Operacional Solar & Eólico da ePowerBay avalia centenas de usinas em operação pelo fator de capacidade médio — o indicador que não mente: quanto cada parque realmente gera em relação ao seu potencial instalado.\n\nNo levantamento de março de 2026, 7 empreendimentos nos quais atuamos como Engenharia do Proprietário aparecem entre os 40 de maior performance:\n☀️ 5 parques fotovoltaicos\n🌬️ 2 parques eólicos\n\nPerformance operacional não é apenas uma propriedade da tecnologia.\nÉ o resultado da qualidade técnica aplicada durante a obra.\n\nCada equipamento inspecionado antes de entrar em campo, cada não-conformidade registrada e tratada antes do comissionamento, cada interface entre disciplinas controlada no momento certo — tudo isso aparece nos números da operação.\n\nO fator de capacidade de março foi construído na fiscalização, mês a mês.\n\nHá uma diferença entre entregar uma obra e entregar um ativo que performa.\nA fiscalização técnica independente é parte essencial dessa diferença.\n\nVocê enxerga a Engenharia do Proprietário como diferencial de performance — ou ainda como um custo a otimizar?\n\n#EngenhariaDoProprietário #FiscalizaçãoDeObras #EnergiaSolar #EnergiaEólica #INOVAEnergy",
+            "Link da publicação": "https://www.linkedin.com/feed/update/urn:li:activity:7458123518195625984",
+            "Tipo de publicação": "Orgânico",
+            "Nome da campanha": "",
+            "Publicada por": "Karine Pinheiro",
+            "Criação": "05/07/2026",
+            "Data de início da campanha": "",
+            "Data de término da campanha": "",
+            "Público": "Todos os seguidores",
+            "Impressões": 2764.0,
+            "Visualizações": "",
+            "Visualizações fora do site": "",
+            "Cliques": 48.0,
+            "Taxa de cliques (CTR)": 0.017366135492920876,
+            "Gostaram": 70.0,
+            "Comentários": 8.0,
+            "Compartilhamentos": 6.0,
+            "Seguidores": "",
+            "Taxa de engajamento": 0.047756873071193695,
+            "Tipo de conteúdo": ""
+          },
+          {
+            "Título da publicação": "Fiscal de obra não é vigia de canteiro.\n\nQuem pensa assim costuma descobrir o contrário quando o cronograma já está comprometido.\n\nEm obras complexas de infraestrutura, a fiscalização pode contemplar diversas disciplinas técnicas simultâneas — cada uma com potencial para parar o empreendimento:\n⚡ Elétrica — subestações, cabos, inversores, comissionamento\n🏗️ Civil — fundações, vias de acesso, drenagem, terraplenagem\n🔩 Eletromecânica — montagem de geradores, equipamentos, estruturas\n🔍 Qualidade e Inspeção — FAT, diligenciamento, recebimento técnico em campo\n🦺 SST — conformidade com NRs, controle de acesso, prevenção de acidentes\n🌿 Meio Ambiente — condicionantes de licença, programas ambientais, gestão de resíduos\n📋 Controle Físico-Financeiro — medições, indicadores de desempenho, administração contratual\n\nUm equipamento que entra sem inspeção adequada é um risco que se manifesta na operação — não na obra.\n\nUma condicionante ambiental descumprida pode embargar tudo.\n\nGerenciar essas frentes com a visão do dono — isso é o que a Engenharia do Proprietário faz.\n\nO investimento adicional em uma boa fiscalização retorna na operação, em forma de desempenho e economia. Vamos mostrar mais na Parte II.\n\nJá viu obra que economizou na fiscalização e pagou o preço na operação? Me conta nos comentários.\n\ncomercial@inovaenergy.com.br\n\n#FiscalizaçãoDeObras #EngenhariaDoProprietário #GestãoDeObras #Infraestrutura #INOVAEnergy",
+            "Link da publicação": "https://www.linkedin.com/feed/update/urn:li:activity:7457444062728581120",
+            "Tipo de publicação": "Orgânico",
+            "Nome da campanha": "",
+            "Publicada por": "Karine Pinheiro",
+            "Criação": "05/05/2026",
+            "Data de início da campanha": "",
+            "Data de término da campanha": "",
+            "Público": "Todos os seguidores",
+            "Impressões": 3559.0,
+            "Visualizações": "",
+            "Visualizações fora do site": "",
+            "Cliques": 130.0,
+            "Taxa de cliques (CTR)": 0.0365271158516407,
+            "Gostaram": 100.0,
+            "Comentários": 3.0,
+            "Compartilhamentos": 4.0,
+            "Seguidores": "",
+            "Taxa de engajamento": 0.06659173965454102,
+            "Tipo de conteúdo": ""
+          }
+        ]
+      },
+      "followers": {
+        "daily": [
+          {
+            "date": "05/01/2026",
+            "sponsored": 0.0,
+            "organic": 3.0,
+            "autoInvite": 0.0,
+            "total": 3.0
+          },
+          {
+            "date": "05/02/2026",
+            "sponsored": 0.0,
+            "organic": 5.0,
+            "autoInvite": 0.0,
+            "total": 5.0
+          },
+          {
+            "date": "05/03/2026",
+            "sponsored": 0.0,
+            "organic": 6.0,
+            "autoInvite": 0.0,
+            "total": 6.0
+          },
+          {
+            "date": "05/04/2026",
+            "sponsored": 0.0,
+            "organic": 11.0,
+            "autoInvite": 0.0,
+            "total": 11.0
+          },
+          {
+            "date": "05/05/2026",
+            "sponsored": 0.0,
+            "organic": 9.0,
+            "autoInvite": 0.0,
+            "total": 9.0
+          },
+          {
+            "date": "05/06/2026",
+            "sponsored": 0.0,
+            "organic": 8.0,
+            "autoInvite": 0.0,
+            "total": 8.0
+          },
+          {
+            "date": "05/07/2026",
+            "sponsored": 0.0,
+            "organic": 14.0,
+            "autoInvite": 0.0,
+            "total": 14.0
+          },
+          {
+            "date": "05/08/2026",
+            "sponsored": 0.0,
+            "organic": 17.0,
+            "autoInvite": 0.0,
+            "total": 17.0
+          },
+          {
+            "date": "05/09/2026",
+            "sponsored": 0.0,
+            "organic": 9.0,
+            "autoInvite": 0.0,
+            "total": 9.0
+          },
+          {
+            "date": "05/10/2026",
+            "sponsored": 0.0,
+            "organic": 7.0,
+            "autoInvite": 0.0,
+            "total": 7.0
+          },
+          {
+            "date": "05/11/2026",
+            "sponsored": 0.0,
+            "organic": 14.0,
+            "autoInvite": 0.0,
+            "total": 14.0
+          },
+          {
+            "date": "05/12/2026",
+            "sponsored": 0.0,
+            "organic": 14.0,
+            "autoInvite": 0.0,
+            "total": 14.0
+          },
+          {
+            "date": "05/13/2026",
+            "sponsored": 0.0,
+            "organic": 12.0,
+            "autoInvite": 0.0,
+            "total": 12.0
+          },
+          {
+            "date": "05/14/2026",
+            "sponsored": 0.0,
+            "organic": 10.0,
+            "autoInvite": 0.0,
+            "total": 10.0
+          },
+          {
+            "date": "05/15/2026",
+            "sponsored": 0.0,
+            "organic": 14.0,
+            "autoInvite": 0.0,
+            "total": 14.0
+          },
+          {
+            "date": "05/16/2026",
+            "sponsored": 0.0,
+            "organic": 12.0,
+            "autoInvite": 0.0,
+            "total": 12.0
+          },
+          {
+            "date": "05/17/2026",
+            "sponsored": 0.0,
+            "organic": 6.0,
+            "autoInvite": 0.0,
+            "total": 6.0
+          },
+          {
+            "date": "05/18/2026",
+            "sponsored": 0.0,
+            "organic": 13.0,
+            "autoInvite": 0.0,
+            "total": 13.0
+          },
+          {
+            "date": "05/19/2026",
+            "sponsored": 0.0,
+            "organic": 18.0,
+            "autoInvite": 0.0,
+            "total": 18.0
+          },
+          {
+            "date": "05/20/2026",
+            "sponsored": 0.0,
+            "organic": 7.0,
+            "autoInvite": 0.0,
+            "total": 7.0
+          },
+          {
+            "date": "05/21/2026",
+            "sponsored": 0.0,
+            "organic": 16.0,
+            "autoInvite": 0.0,
+            "total": 16.0
+          },
+          {
+            "date": "05/22/2026",
+            "sponsored": 0.0,
+            "organic": 12.0,
+            "autoInvite": 0.0,
+            "total": 12.0
+          },
+          {
+            "date": "05/23/2026",
+            "sponsored": 0.0,
+            "organic": 9.0,
+            "autoInvite": 0.0,
+            "total": 9.0
+          },
+          {
+            "date": "05/24/2026",
+            "sponsored": 0.0,
+            "organic": 3.0,
+            "autoInvite": 0.0,
+            "total": 3.0
+          },
+          {
+            "date": "05/25/2026",
+            "sponsored": 0.0,
+            "organic": 10.0,
+            "autoInvite": 0.0,
+            "total": 10.0
+          },
+          {
+            "date": "05/26/2026",
+            "sponsored": 0.0,
+            "organic": 1.0,
+            "autoInvite": 0.0,
+            "total": 1.0
+          },
+          {
+            "date": "05/27/2026",
+            "sponsored": 0.0,
+            "organic": 6.0,
+            "autoInvite": 0.0,
+            "total": 6.0
+          },
+          {
+            "date": "05/28/2026",
+            "sponsored": 0.0,
+            "organic": 5.0,
+            "autoInvite": 0.0,
+            "total": 5.0
+          },
+          {
+            "date": "05/29/2026",
+            "sponsored": 0.0,
+            "organic": 2.0,
+            "autoInvite": 0.0,
+            "total": 2.0
+          },
+          {
+            "date": "05/30/2026",
+            "sponsored": 0.0,
+            "organic": 1.0,
+            "autoInvite": 0.0,
+            "total": 1.0
+          },
+          {
+            "date": "05/31/2026",
+            "sponsored": 0.0,
+            "organic": 3.0,
+            "autoInvite": 0.0,
+            "total": 3.0
+          }
+        ],
+        "demographics": {
+          "Localidade": [
+            {
+              "label": "Fortaleza e Região, Brasil",
+              "value": 4296.0
+            },
+            {
+              "label": "São Paulo e Região, Brasil",
+              "value": 2533.0
+            },
+            {
+              "label": "Natal e Região, Brasil",
+              "value": 1517.0
+            },
+            {
+              "label": "Rio de Janeiro e Região, Brasil",
+              "value": 1149.0
+            },
+            {
+              "label": "Salvador e Região, Brasil",
+              "value": 871.0
+            },
+            {
+              "label": "Belo Horizonte e Região, Brasil",
+              "value": 868.0
+            },
+            {
+              "label": "Recife e Região, Brasil",
+              "value": 640.0
+            },
+            {
+              "label": "Campinas e Região, Brasil",
+              "value": 554.0
+            },
+            {
+              "label": "Curitiba e Região, Brasil",
+              "value": 436.0
+            },
+            {
+              "label": "Porto Alegre e Região, Brasil",
+              "value": 411.0
+            },
+            {
+              "label": "Mossoró, Brasil",
+              "value": 272.0
+            },
+            {
+              "label": "Florianópolis e Região, Brasil",
+              "value": 265.0
+            },
+            {
+              "label": "Sorocaba, Brasil",
+              "value": 242.0
+            },
+            {
+              "label": "Brasília e Região, Brasil",
+              "value": 222.0
+            },
+            {
+              "label": "João Pessoa e Região, Brasil",
+              "value": 220.0
+            },
+            {
+              "label": "Goiânia e Região, Brasil",
+              "value": 177.0
+            },
+            {
+              "label": "Petrolina, Brasil",
+              "value": 174.0
+            },
+            {
+              "label": "Araripina, Brasil",
+              "value": 164.0
+            },
+            {
+              "label": "João Câmara, Brasil",
+              "value": 160.0
+            },
+            {
+              "label": "São Luís e Região, Brasil",
+              "value": 160.0
+            },
+            {
+              "label": "São José dos Campos, Brasil",
+              "value": 134.0
+            },
+            {
+              "label": "Lisboa e Região, Portugal",
+              "value": 134.0
+            },
+            {
+              "label": "Caetité, Brasil",
+              "value": 131.0
+            },
+            {
+              "label": "Ribeirão Preto e Região, Brasil",
+              "value": 118.0
+            },
+            {
+              "label": "Vitória e Região, Brasil",
+              "value": 116.0
+            },
+            {
+              "label": "Juazeiro, Brasil",
+              "value": 113.0
+            },
+            {
+              "label": "Guanambi, Brasil",
+              "value": 110.0
+            },
+            {
+              "label": "Campo Formoso, Brasil",
+              "value": 102.0
+            },
+            {
+              "label": "Assu, Brasil",
+              "value": 102.0
+            },
+            {
+              "label": "Belém e Região, Brasil",
+              "value": 102.0
+            },
+            {
+              "label": "Teresina, Brasil",
+              "value": 101.0
+            },
+            {
+              "label": "Macaé, Brasil",
+              "value": 96.0
+            },
+            {
+              "label": "Aracaju, Brasil",
+              "value": 94.0
+            },
+            {
+              "label": "Sobradinho, Brasil",
+              "value": 93.0
+            },
+            {
+              "label": "Manaus e Região, Brasil",
+              "value": 92.0
+            },
+            {
+              "label": "Areia Branca, Brasil",
+              "value": 91.0
+            },
+            {
+              "label": "Campina Grande, Brasil",
+              "value": 90.0
+            },
+            {
+              "label": "Uberlândia, Brasil",
+              "value": 88.0
+            },
+            {
+              "label": "Santa Luzia, Brasil",
+              "value": 84.0
+            },
+            {
+              "label": "Maceió, Brasil",
+              "value": 84.0
+            },
+            {
+              "label": "São Gonçalo do Amarante, Brasil",
+              "value": 83.0
+            },
+            {
+              "label": "Montes Claros, Brasil",
+              "value": 78.0
+            },
+            {
+              "label": "Garanhuns, Brasil",
+              "value": 77.0
+            },
+            {
+              "label": "Guamaré, Brasil",
+              "value": 76.0
+            },
+            {
+              "label": "Icapuí, Brasil",
+              "value": 73.0
+            },
+            {
+              "label": "Joinville, Brasil",
+              "value": 68.0
+            },
+            {
+              "label": "Macau, Brasil",
+              "value": 65.0
+            },
+            {
+              "label": "Porto e Região, Portugal",
+              "value": 64.0
+            },
+            {
+              "label": "Pirapora, Brasil",
+              "value": 64.0
+            },
+            {
+              "label": "Trairi, Brasil",
+              "value": 63.0
+            },
+            {
+              "label": "Janaúba, Brasil",
+              "value": 62.0
+            },
+            {
+              "label": "Currais Novos, Brasil",
+              "value": 60.0
+            },
+            {
+              "label": "Jacobina, Brasil",
+              "value": 59.0
+            },
+            {
+              "label": "Santo André, Brasil",
+              "value": 58.0
+            },
+            {
+              "label": "Taubaté, Brasil",
+              "value": 56.0
+            },
+            {
+              "label": "Feira de Santana, Brasil",
+              "value": 54.0
+            },
+            {
+              "label": "Ipatinga, Brasil",
+              "value": 53.0
+            },
+            {
+              "label": "Cuiabá e Região, Brasil",
+              "value": 53.0
+            },
+            {
+              "label": "Limoeiro do Norte, Brasil",
+              "value": 52.0
+            },
+            {
+              "label": "Sobral, Brasil",
+              "value": 52.0
+            },
+            {
+              "label": "Piracicaba, Brasil",
+              "value": 52.0
+            },
+            {
+              "label": "Campo Grande, Brasil",
+              "value": 51.0
+            },
+            {
+              "label": "Maringá, Brasil",
+              "value": 51.0
+            },
+            {
+              "label": "Patos, Brasil",
+              "value": 50.0
+            },
+            {
+              "label": "Madrid e Região, Espanha",
+              "value": 50.0
+            },
+            {
+              "label": "Milagres, Brasil",
+              "value": 49.0
+            },
+            {
+              "label": "Bauru, Brasil",
+              "value": 49.0
+            },
+            {
+              "label": "Cabo de Santo Agostinho, Brasil",
+              "value": 49.0
+            },
+            {
+              "label": "Aracati, Brasil",
+              "value": 48.0
+            },
+            {
+              "label": "Irecê, Brasil",
+              "value": 48.0
+            },
+            {
+              "label": "Londrina e Região, Brasil",
+              "value": 48.0
+            },
+            {
+              "label": "Juazeiro do Norte, Brasil",
+              "value": 48.0
+            },
+            {
+              "label": "Belmonte, Brasil",
+              "value": 48.0
+            },
+            {
+              "label": "Buenos Aires e Região, Argentina",
+              "value": 47.0
+            },
+            {
+              "label": "Parnamirim, Brasil",
+              "value": 47.0
+            },
+            {
+              "label": "Paulo Afonso, Brasil",
+              "value": 46.0
+            },
+            {
+              "label": "Parauapebas, Brasil",
+              "value": 46.0
+            },
+            {
+              "label": "Uberaba, Brasil",
+              "value": 44.0
+            },
+            {
+              "label": "Ourolândia, Brasil",
+              "value": 44.0
+            },
+            {
+              "label": "São José do Belmonte, Brasil",
+              "value": 42.0
+            },
+            {
+              "label": "Pindamonhangaba, Brasil",
+              "value": 42.0
+            },
+            {
+              "label": "Blumenau, Brasil",
+              "value": 42.0
+            },
+            {
+              "label": "Porto Velho, Brasil",
+              "value": 41.0
+            },
+            {
+              "label": "Parnaíba, Brasil",
+              "value": 41.0
+            },
+            {
+              "label": "São José do Rio Preto, Brasil",
+              "value": 41.0
+            },
+            {
+              "label": "Araraquara, Brasil",
+              "value": 40.0
+            },
+            {
+              "label": "Brumado, Brasil",
+              "value": 39.0
+            },
+            {
+              "label": "Xique-Xique, Brasil",
+              "value": 39.0
+            },
+            {
+              "label": "Jaraguá do Sul, Brasil",
+              "value": 39.0
+            },
+            {
+              "label": "Palmas, Brasil",
+              "value": 38.0
+            },
+            {
+              "label": "Volta Redonda, Brasil",
+              "value": 38.0
+            },
+            {
+              "label": "Queimada Nova, Brasil",
+              "value": 36.0
+            },
+            {
+              "label": "Caruaru, Brasil",
+              "value": 35.0
+            },
+            {
+              "label": "Morro do Chapéu, Brasil",
+              "value": 34.0
+            },
+            {
+              "label": "Juiz de Fora, Brasil",
+              "value": 34.0
+            },
+            {
+              "label": "Paracuru, Brasil",
+              "value": 33.0
+            },
+            {
+              "label": "Serra, Brasil",
+              "value": 33.0
+            },
+            {
+              "label": "Piripiri, Brasil",
+              "value": 32.0
+            },
+            {
+              "label": "Campos dos Goytacazes, Brasil",
+              "value": 32.0
+            },
+            {
+              "label": "Pelotas, Brasil",
+              "value": 31.0
+            }
+          ],
+          "Função": [
+            {
+              "label": "Operações",
+              "value": 6849.0
+            },
+            {
+              "label": "Engenharia",
+              "value": 4278.0
+            },
+            {
+              "label": "Desenvolvimento de negócios",
+              "value": 1924.0
+            },
+            {
+              "label": "Tecnologia da informação",
+              "value": 1439.0
+            },
+            {
+              "label": "Vendas",
+              "value": 1198.0
+            },
+            {
+              "label": "Gestão de projetos",
+              "value": 991.0
+            },
+            {
+              "label": "Administração",
+              "value": 745.0
+            },
+            {
+              "label": "Financeiro",
+              "value": 557.0
+            },
+            {
+              "label": "Serviços sociais e comunitários",
+              "value": 555.0
+            },
+            {
+              "label": "Educação",
+              "value": 504.0
+            },
+            {
+              "label": "Controle de qualidade",
+              "value": 489.0
+            },
+            {
+              "label": "Pesquisa",
+              "value": 456.0
+            },
+            {
+              "label": "Contabilidade",
+              "value": 352.0
+            },
+            {
+              "label": "Recursos humanos",
+              "value": 323.0
+            },
+            {
+              "label": "Empreendedorismo",
+              "value": 284.0
+            },
+            {
+              "label": "Consultoria",
+              "value": 279.0
+            },
+            {
+              "label": "Área jurídica",
+              "value": 262.0
+            },
+            {
+              "label": "Suporte",
+              "value": 261.0
+            },
+            {
+              "label": "Saúde",
+              "value": 256.0
+            },
+            {
+              "label": "Imóveis",
+              "value": 253.0
+            },
+            {
+              "label": "Arte e design",
+              "value": 206.0
+            },
+            {
+              "label": "Compras",
+              "value": 187.0
+            },
+            {
+              "label": "Serviços de proteção e militares",
+              "value": 172.0
+            },
+            {
+              "label": "Mídia e comunicação",
+              "value": 151.0
+            },
+            {
+              "label": "Marketing",
+              "value": 141.0
+            },
+            {
+              "label": "Gestão de produtos",
+              "value": 94.0
+            }
+          ],
+          "Nível de experiência": [
+            {
+              "label": "Iniciante",
+              "value": 12848.0
+            },
+            {
+              "label": "Sênior",
+              "value": 6677.0
+            },
+            {
+              "label": "Gerente",
+              "value": 2645.0
+            },
+            {
+              "label": "Diretor",
+              "value": 1049.0
+            },
+            {
+              "label": "Dirigente (CEO, COO, CFO, CMO)",
+              "value": 411.0
+            },
+            {
+              "label": "Proprietário",
+              "value": 384.0
+            },
+            {
+              "label": "Parceiro",
+              "value": 319.0
+            },
+            {
+              "label": "Vice-Presidente",
+              "value": 256.0
+            },
+            {
+              "label": "Treinamento",
+              "value": 177.0
+            },
+            {
+              "label": "Não remunerado",
+              "value": 42.0
+            }
+          ],
+          "Setor": [
+            {
+              "label": "Obras de infra-estrutura",
+              "value": 2652.0
+            },
+            {
+              "label": "Construção",
+              "value": 2190.0
+            },
+            {
+              "label": "Fabricação de equipamentos de energia renovável",
+              "value": 1855.0
+            },
+            {
+              "label": "Extração de petróleo e gás natural",
+              "value": 1291.0
+            },
+            {
+              "label": "Serviços de eletricidade, gás, água e esgoto",
+              "value": 1170.0
+            },
+            {
+              "label": "Serviços de engenharia",
+              "value": 966.0
+            },
+            {
+              "label": "Geração de energia renovável",
+              "value": 963.0
+            },
+            {
+              "label": "Atividades dos serviços de tecnologia da informação",
+              "value": 829.0
+            },
+            {
+              "label": "Atividades de consultoria em gestão empresarial",
+              "value": 783.0
+            },
+            {
+              "label": "Fabricação de máquinas e equipamentos de uso industrial específico",
+              "value": 776.0
+            },
+            {
+              "label": "Serviços ambientais",
+              "value": 762.0
+            },
+            {
+              "label": "Serviços para energia renovável",
+              "value": 699.0
+            },
+            {
+              "label": "Geração de energia elétrica eólica",
+              "value": 552.0
+            },
+            {
+              "label": "Educação superior",
+              "value": 548.0
+            },
+            {
+              "label": "Fabricação de semicondutores de energia renovável",
+              "value": 496.0
+            },
+            {
+              "label": "Geração de energia elétrica solar",
+              "value": 493.0
+            },
+            {
+              "label": "Serviços combinados para apoio a edifícios",
+              "value": 483.0
+            },
+            {
+              "label": "Comércio varejista",
+              "value": 412.0
+            },
+            {
+              "label": "Atividades de coordenação e controle da operação da geração e transmissão de energia elétrica",
+              "value": 400.0
+            },
+            {
+              "label": "Administração pública, defesa e seguridade social",
+              "value": 397.0
+            },
+            {
+              "label": "Transporte, armazenagem e correio",
+              "value": 376.0
+            },
+            {
+              "label": "Mineração",
+              "value": 317.0
+            },
+            {
+              "label": "Fabricação de máquinas, aparelhos e materiais elétricos",
+              "value": 293.0
+            },
+            {
+              "label": "Geração de energia elétrica",
+              "value": 282.0
+            },
+            {
+              "label": "Telecomunicações",
+              "value": 270.0
+            },
+            {
+              "label": "Atividades de serviços financeiros",
+              "value": 265.0
+            },
+            {
+              "label": "Desenvolvimento de software",
+              "value": 245.0
+            },
+            {
+              "label": "Hospitais e atividades de atenção à saúde humana",
+              "value": 229.0
+            },
+            {
+              "label": "Fabricação de máquinas de automação",
+              "value": 220.0
+            },
+            {
+              "label": "Fabricação de máquinas e equipamentos",
+              "value": 213.0
+            },
+            {
+              "label": "Agricultura",
+              "value": 211.0
+            },
+            {
+              "label": "Extração de minerais metálicos",
+              "value": 208.0
+            },
+            {
+              "label": "Fabricação de geradores, transformadores e motores elétricos",
+              "value": 205.0
+            },
+            {
+              "label": "Serviços de alimentação e bebidas",
+              "value": 195.0
+            },
+            {
+              "label": "Transporte rodoviário de carga",
+              "value": 193.0
+            },
+            {
+              "label": "Atividades imobiliárias",
+              "value": 192.0
+            },
+            {
+              "label": "Consultoria de terceirização e offshoring",
+              "value": 181.0
+            },
+            {
+              "label": "Fabricação de veículos automotores, reboques e carrocerias",
+              "value": 178.0
+            },
+            {
+              "label": "Indústrias de transformação",
+              "value": 174.0
+            },
+            {
+              "label": "Geração de energia hidrelétrica",
+              "value": 164.0
+            },
+            {
+              "label": "Fabricação de produtos químicos",
+              "value": 161.0
+            },
+            {
+              "label": "Fabricação de produtos alimentícios e bebidas",
+              "value": 157.0
+            },
+            {
+              "label": "Atividades de contabilidade",
+              "value": 154.0
+            },
+            {
+              "label": "Treinamento em desenvolvimento profissional",
+              "value": 140.0
+            },
+            {
+              "label": "Fornecimento e gestão de recursos humanos",
+              "value": 135.0
+            },
+            {
+              "label": "Pesquisa e desenvolvimento cientifico",
+              "value": 133.0
+            },
+            {
+              "label": "Atividades de apoio à educação",
+              "value": 126.0
+            },
+            {
+              "label": "Atividades de serviços pessoais",
+              "value": 124.0
+            },
+            {
+              "label": "Atividades de associações de defesa de direitos sociais",
+              "value": 118.0
+            },
+            {
+              "label": "Atividades de bem-estar e condicionamento físico",
+              "value": 112.0
+            },
+            {
+              "label": "Serviços advocatícios",
+              "value": 110.0
+            },
+            {
+              "label": "Atividades de organizações sem fins lucrativos",
+              "value": 108.0
+            },
+            {
+              "label": "Tecnologia, Informação e Internet",
+              "value": 107.0
+            },
+            {
+              "label": "Atividades profissionais, científicas e técnicas",
+              "value": 104.0
+            },
+            {
+              "label": "Manutenção e reparação",
+              "value": 102.0
+            },
+            {
+              "label": "Publicidade e propaganda",
+              "value": 94.0
+            },
+            {
+              "label": "Intermediação não-monetária - outros instrumentos de captação",
+              "value": 91.0
+            },
+            {
+              "label": "Comércio atacadista de materiais de construção em geral",
+              "value": 85.0
+            },
+            {
+              "label": "Educação infantil, ensino fundamental e ensino médio",
+              "value": 84.0
+            },
+            {
+              "label": "Recrutamento e seleção de pessoal",
+              "value": 83.0
+            },
+            {
+              "label": "Serviços de arquitetura e planejamento",
+              "value": 81.0
+            },
+            {
+              "label": "Comércio por atacado",
+              "value": 80.0
+            },
+            {
+              "label": "Bancos",
+              "value": 77.0
+            },
+            {
+              "label": "Fabricação de produtos têxteis",
+              "value": 76.0
+            },
+            {
+              "label": "Fabricação de produtos farmoquímicos e farmacêuticos",
+              "value": 75.0
+            },
+            {
+              "label": "Construção de edifícios",
+              "value": 74.0
+            },
+            {
+              "label": "Comércio atacadista de petróleo e produtos petrolíferos",
+              "value": 71.0
+            },
+            {
+              "label": "Fabricação de celulose, papel e produtos de papel",
+              "value": 70.0
+            },
+            {
+              "label": "Petróleo, gás natural e mineração",
+              "value": 70.0
+            },
+            {
+              "label": "Gestão de investimentos em aplicações financeiras",
+              "value": 68.0
+            },
+            {
+              "label": "Sociedades de fomento mercantil - factoring",
+              "value": 66.0
+            },
+            {
+              "label": "Justiça",
+              "value": 63.0
+            },
+            {
+              "label": "Seguros e previdência complementar",
+              "value": 62.0
+            },
+            {
+              "label": "Transporte aquaviário",
+              "value": 58.0
+            },
+            {
+              "label": "Atividades de vigilância, segurança e investigação",
+              "value": 56.0
+            },
+            {
+              "label": "Aluguel de máquinas e equipamentos",
+              "value": 56.0
+            },
+            {
+              "label": "Produção e distribuição de vapor e ar condicionado",
+              "value": 55.0
+            },
+            {
+              "label": "Atividades jurídicas",
+              "value": 55.0
+            },
+            {
+              "label": "Restaurantes e outros serviços de alimentação e bebidas",
+              "value": 54.0
+            },
+            {
+              "label": "Transporte ferroviário e metroferroviário",
+              "value": 54.0
+            },
+            {
+              "label": "Fabricação de aeronaves",
+              "value": 52.0
+            },
+            {
+              "label": "Fabricação de produtos de material plástico",
+              "value": 51.0
+            },
+            {
+              "label": "Serviços administrativos e complementares",
+              "value": 50.0
+            },
+            {
+              "label": "Hotelaria",
+              "value": 49.0
+            },
+            {
+              "label": "Comércio varejista especializado de equipamentos e suprimentos de informática",
+              "value": 49.0
+            },
+            {
+              "label": "Fabricação de Embalagens e Recipientes",
+              "value": 48.0
+            },
+            {
+              "label": "Planejamento, assessoramento e organização de viagens",
+              "value": 47.0
+            },
+            {
+              "label": "Fabricação de bebidas",
+              "value": 46.0
+            },
+            {
+              "label": "Instalações elétricas, hidráulicas e outras instalações em construções",
+              "value": 45.0
+            },
+            {
+              "label": "Construção de rodovias, ruas e pontes",
+              "value": 44.0
+            },
+            {
+              "label": "Manutenção de máquinas comerciais e industriais",
+              "value": 44.0
+            },
+            {
+              "label": "Obras de infra-estrutura para energia elétrica, telecomunicações, água, esgoto e transporte por dutos",
+              "value": 43.0
+            },
+            {
+              "label": "Transporte aéreo",
+              "value": 42.0
+            },
+            {
+              "label": "Serviços de informação",
+              "value": 42.0
+            },
+            {
+              "label": "Educação",
+              "value": 41.0
+            },
+            {
+              "label": "Serviços de escritório e apoio administrativo",
+              "value": 41.0
+            },
+            {
+              "label": "Fabricação de móveis e artigos de decoração",
+              "value": 41.0
+            },
+            {
+              "label": "Fabricação de defensivos agrícolas, adubos e fertilizantes",
+              "value": 41.0
+            },
+            {
+              "label": "Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal",
+              "value": 41.0
+            },
+            {
+              "label": "Serviços de gestão estratégica",
+              "value": 40.0
+            }
+          ],
+          "Tamanho da empresa": [
+            {
+              "label": "1.001-5.000",
+              "value": 4279.0
+            },
+            {
+              "label": "+ de 10.001",
+              "value": 3633.0
+            },
+            {
+              "label": "51-200",
+              "value": 3465.0
+            },
+            {
+              "label": "201-500",
+              "value": 2470.0
+            },
+            {
+              "label": "501-1.000",
+              "value": 2120.0
+            },
+            {
+              "label": "11-50",
+              "value": 2073.0
+            },
+            {
+              "label": "5.001-10.000",
+              "value": 1542.0
+            },
+            {
+              "label": "2-10",
+              "value": 1296.0
+            },
+            {
+              "label": "1",
+              "value": 148.0
+            }
+          ]
+        }
+      },
+      "visitors": {
+        "daily": [
+          {
+            "Data": "05/01/2026",
+            "Visualizações da página Visão geral (computadores)": 2.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 6.0,
+            "Visualizações da página Visão geral (total)": 8.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Visão geral (total)": 7.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 6.0,
+            "Visualizações da página Vagas (total)": 6.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 5.0,
+            "Visitantes únicos da página Vagas (total)": 5.0,
+            "Total de visualizações da página (computadores)": 2.0,
+            "Total de visualizações da página (dispositivos móveis)": 14.0,
+            "Total de visualizações da página (total)": 16.0,
+            "Total de visitantes únicos (computadores)": 1.0,
+            "Total de visitantes únicos (dispositivos móveis)": 11.0,
+            "Total de visitantes únicos (total)": 12.0
+          },
+          {
+            "Data": "05/02/2026",
+            "Visualizações da página Visão geral (computadores)": 0.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 6.0,
+            "Visualizações da página Visão geral (total)": 6.0,
+            "Visitantes únicos da página Visão geral (computadores)": 0.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 4.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 3.0,
+            "Visualizações da página Vagas (total)": 3.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 2.0,
+            "Visitantes únicos da página Vagas (total)": 2.0,
+            "Total de visualizações da página (computadores)": 0.0,
+            "Total de visualizações da página (dispositivos móveis)": 10.0,
+            "Total de visualizações da página (total)": 10.0,
+            "Total de visitantes únicos (computadores)": 0.0,
+            "Total de visitantes únicos (dispositivos móveis)": 4.0,
+            "Total de visitantes únicos (total)": 4.0
+          },
+          {
+            "Data": "05/03/2026",
+            "Visualizações da página Visão geral (computadores)": 4.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 7.0,
+            "Visualizações da página Visão geral (total)": 11.0,
+            "Visitantes únicos da página Visão geral (computadores)": 2.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 6.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 6.0,
+            "Visualizações da página Vagas (total)": 7.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Vagas (total)": 7.0,
+            "Total de visualizações da página (computadores)": 6.0,
+            "Total de visualizações da página (dispositivos móveis)": 13.0,
+            "Total de visualizações da página (total)": 19.0,
+            "Total de visitantes únicos (computadores)": 2.0,
+            "Total de visitantes únicos (dispositivos móveis)": 7.0,
+            "Total de visitantes únicos (total)": 9.0
+          },
+          {
+            "Data": "05/04/2026",
+            "Visualizações da página Visão geral (computadores)": 1.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 8.0,
+            "Visualizações da página Visão geral (total)": 9.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 4.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 5.0,
+            "Visualizações da página Vagas (total)": 5.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 5.0,
+            "Visitantes únicos da página Vagas (total)": 5.0,
+            "Total de visualizações da página (computadores)": 2.0,
+            "Total de visualizações da página (dispositivos móveis)": 21.0,
+            "Total de visualizações da página (total)": 23.0,
+            "Total de visitantes únicos (computadores)": 1.0,
+            "Total de visitantes únicos (dispositivos móveis)": 6.0,
+            "Total de visitantes únicos (total)": 7.0
+          },
+          {
+            "Data": "05/05/2026",
+            "Visualizações da página Visão geral (computadores)": 5.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 5.0,
+            "Visualizações da página Visão geral (total)": 10.0,
+            "Visitantes únicos da página Visão geral (computadores)": 4.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 8.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 15.0,
+            "Visualizações da página Vagas (total)": 15.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 15.0,
+            "Visitantes únicos da página Vagas (total)": 15.0,
+            "Total de visualizações da página (computadores)": 6.0,
+            "Total de visualizações da página (dispositivos móveis)": 41.0,
+            "Total de visualizações da página (total)": 47.0,
+            "Total de visitantes únicos (computadores)": 5.0,
+            "Total de visitantes únicos (dispositivos móveis)": 18.0,
+            "Total de visitantes únicos (total)": 23.0
+          },
+          {
+            "Data": "05/06/2026",
+            "Visualizações da página Visão geral (computadores)": 9.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 11.0,
+            "Visualizações da página Visão geral (total)": 20.0,
+            "Visitantes únicos da página Visão geral (computadores)": 7.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 10.0,
+            "Visitantes únicos da página Visão geral (total)": 17.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 2.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 4.0,
+            "Visualizações da página Vagas (total)": 6.0,
+            "Visitantes únicos da página Vagas (computadores)": 2.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Vagas (total)": 6.0,
+            "Total de visualizações da página (computadores)": 12.0,
+            "Total de visualizações da página (dispositivos móveis)": 25.0,
+            "Total de visualizações da página (total)": 37.0,
+            "Total de visitantes únicos (computadores)": 7.0,
+            "Total de visitantes únicos (dispositivos móveis)": 11.0,
+            "Total de visitantes únicos (total)": 18.0
+          },
+          {
+            "Data": "05/07/2026",
+            "Visualizações da página Visão geral (computadores)": 12.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 3.0,
+            "Visualizações da página Visão geral (total)": 15.0,
+            "Visitantes únicos da página Visão geral (computadores)": 8.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 11.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 5.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 6.0,
+            "Visualizações da página Vagas (total)": 11.0,
+            "Visitantes únicos da página Vagas (computadores)": 5.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Vagas (total)": 11.0,
+            "Total de visualizações da página (computadores)": 22.0,
+            "Total de visualizações da página (dispositivos móveis)": 9.0,
+            "Total de visualizações da página (total)": 31.0,
+            "Total de visitantes únicos (computadores)": 9.0,
+            "Total de visitantes únicos (dispositivos móveis)": 8.0,
+            "Total de visitantes únicos (total)": 17.0
+          },
+          {
+            "Data": "05/08/2026",
+            "Visualizações da página Visão geral (computadores)": 9.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 8.0,
+            "Visualizações da página Visão geral (total)": 17.0,
+            "Visitantes únicos da página Visão geral (computadores)": 4.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Visão geral (total)": 10.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 3.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 5.0,
+            "Visualizações da página Vagas (total)": 8.0,
+            "Visitantes únicos da página Vagas (computadores)": 3.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Vagas (total)": 7.0,
+            "Total de visualizações da página (computadores)": 15.0,
+            "Total de visualizações da página (dispositivos móveis)": 26.0,
+            "Total de visualizações da página (total)": 41.0,
+            "Total de visitantes únicos (computadores)": 4.0,
+            "Total de visitantes únicos (dispositivos móveis)": 7.0,
+            "Total de visitantes únicos (total)": 11.0
+          },
+          {
+            "Data": "05/09/2026",
+            "Visualizações da página Visão geral (computadores)": 1.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 1.0,
+            "Visualizações da página Visão geral (total)": 2.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Visão geral (total)": 2.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 0.0,
+            "Visualizações da página Vagas (total)": 0.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Vagas (total)": 0.0,
+            "Total de visualizações da página (computadores)": 2.0,
+            "Total de visualizações da página (dispositivos móveis)": 1.0,
+            "Total de visualizações da página (total)": 3.0,
+            "Total de visitantes únicos (computadores)": 1.0,
+            "Total de visitantes únicos (dispositivos móveis)": 1.0,
+            "Total de visitantes únicos (total)": 2.0
+          },
+          {
+            "Data": "05/10/2026",
+            "Visualizações da página Visão geral (computadores)": 0.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 4.0,
+            "Visualizações da página Visão geral (total)": 4.0,
+            "Visitantes únicos da página Visão geral (computadores)": 0.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 2.0,
+            "Visitantes únicos da página Visão geral (total)": 2.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 1.0,
+            "Visualizações da página Vagas (total)": 1.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Vagas (total)": 1.0,
+            "Total de visualizações da página (computadores)": 0.0,
+            "Total de visualizações da página (dispositivos móveis)": 8.0,
+            "Total de visualizações da página (total)": 8.0,
+            "Total de visitantes únicos (computadores)": 0.0,
+            "Total de visitantes únicos (dispositivos móveis)": 4.0,
+            "Total de visitantes únicos (total)": 4.0
+          },
+          {
+            "Data": "05/11/2026",
+            "Visualizações da página Visão geral (computadores)": 6.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 6.0,
+            "Visualizações da página Visão geral (total)": 12.0,
+            "Visitantes únicos da página Visão geral (computadores)": 4.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 5.0,
+            "Visitantes únicos da página Visão geral (total)": 9.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 10.0,
+            "Visualizações da página Vagas (total)": 10.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Vagas (total)": 6.0,
+            "Total de visualizações da página (computadores)": 6.0,
+            "Total de visualizações da página (dispositivos móveis)": 21.0,
+            "Total de visualizações da página (total)": 27.0,
+            "Total de visitantes únicos (computadores)": 4.0,
+            "Total de visitantes únicos (dispositivos móveis)": 9.0,
+            "Total de visitantes únicos (total)": 13.0
+          },
+          {
+            "Data": "05/12/2026",
+            "Visualizações da página Visão geral (computadores)": 13.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 5.0,
+            "Visualizações da página Visão geral (total)": 18.0,
+            "Visitantes únicos da página Visão geral (computadores)": 6.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 5.0,
+            "Visitantes únicos da página Visão geral (total)": 11.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 2.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 9.0,
+            "Visualizações da página Vagas (total)": 11.0,
+            "Visitantes únicos da página Vagas (computadores)": 2.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 8.0,
+            "Visitantes únicos da página Vagas (total)": 10.0,
+            "Total de visualizações da página (computadores)": 18.0,
+            "Total de visualizações da página (dispositivos móveis)": 21.0,
+            "Total de visualizações da página (total)": 39.0,
+            "Total de visitantes únicos (computadores)": 6.0,
+            "Total de visitantes únicos (dispositivos móveis)": 12.0,
+            "Total de visitantes únicos (total)": 17.0
+          },
+          {
+            "Data": "05/13/2026",
+            "Visualizações da página Visão geral (computadores)": 4.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 7.0,
+            "Visualizações da página Visão geral (total)": 11.0,
+            "Visitantes únicos da página Visão geral (computadores)": 3.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 7.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 3.0,
+            "Visualizações da página Vagas (total)": 3.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Vagas (total)": 3.0,
+            "Total de visualizações da página (computadores)": 4.0,
+            "Total de visualizações da página (dispositivos móveis)": 12.0,
+            "Total de visualizações da página (total)": 16.0,
+            "Total de visitantes únicos (computadores)": 3.0,
+            "Total de visitantes únicos (dispositivos móveis)": 6.0,
+            "Total de visitantes únicos (total)": 9.0
+          },
+          {
+            "Data": "05/14/2026",
+            "Visualizações da página Visão geral (computadores)": 7.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 5.0,
+            "Visualizações da página Visão geral (total)": 12.0,
+            "Visitantes únicos da página Visão geral (computadores)": 6.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 9.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 3.0,
+            "Visualizações da página Vagas (total)": 4.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Vagas (total)": 4.0,
+            "Total de visualizações da página (computadores)": 11.0,
+            "Total de visualizações da página (dispositivos móveis)": 11.0,
+            "Total de visualizações da página (total)": 22.0,
+            "Total de visitantes únicos (computadores)": 6.0,
+            "Total de visitantes únicos (dispositivos móveis)": 7.0,
+            "Total de visitantes únicos (total)": 13.0
+          },
+          {
+            "Data": "05/15/2026",
+            "Visualizações da página Visão geral (computadores)": 11.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 12.0,
+            "Visualizações da página Visão geral (total)": 23.0,
+            "Visitantes únicos da página Visão geral (computadores)": 10.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 10.0,
+            "Visitantes únicos da página Visão geral (total)": 20.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 2.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 12.0,
+            "Visualizações da página Vagas (total)": 14.0,
+            "Visitantes únicos da página Vagas (computadores)": 2.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 11.0,
+            "Visitantes únicos da página Vagas (total)": 13.0,
+            "Total de visualizações da página (computadores)": 18.0,
+            "Total de visualizações da página (dispositivos móveis)": 25.0,
+            "Total de visualizações da página (total)": 43.0,
+            "Total de visitantes únicos (computadores)": 10.0,
+            "Total de visitantes únicos (dispositivos móveis)": 15.0,
+            "Total de visitantes únicos (total)": 25.0
+          },
+          {
+            "Data": "05/16/2026",
+            "Visualizações da página Visão geral (computadores)": 2.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 6.0,
+            "Visualizações da página Visão geral (total)": 8.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 5.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 8.0,
+            "Visualizações da página Vagas (total)": 9.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Vagas (total)": 7.0,
+            "Total de visualizações da página (computadores)": 5.0,
+            "Total de visualizações da página (dispositivos móveis)": 18.0,
+            "Total de visualizações da página (total)": 23.0,
+            "Total de visitantes únicos (computadores)": 1.0,
+            "Total de visitantes únicos (dispositivos móveis)": 8.0,
+            "Total de visitantes únicos (total)": 9.0
+          },
+          {
+            "Data": "05/17/2026",
+            "Visualizações da página Visão geral (computadores)": 0.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 3.0,
+            "Visualizações da página Visão geral (total)": 3.0,
+            "Visitantes únicos da página Visão geral (computadores)": 0.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 3.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 1.0,
+            "Visualizações da página Vagas (total)": 1.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Vagas (total)": 1.0,
+            "Total de visualizações da página (computadores)": 0.0,
+            "Total de visualizações da página (dispositivos móveis)": 5.0,
+            "Total de visualizações da página (total)": 5.0,
+            "Total de visitantes únicos (computadores)": 0.0,
+            "Total de visitantes únicos (dispositivos móveis)": 3.0,
+            "Total de visitantes únicos (total)": 3.0
+          },
+          {
+            "Data": "05/18/2026",
+            "Visualizações da página Visão geral (computadores)": 8.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 8.0,
+            "Visualizações da página Visão geral (total)": 16.0,
+            "Visitantes únicos da página Visão geral (computadores)": 4.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 7.0,
+            "Visitantes únicos da página Visão geral (total)": 11.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 3.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 10.0,
+            "Visualizações da página Vagas (total)": 13.0,
+            "Visitantes únicos da página Vagas (computadores)": 3.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 10.0,
+            "Visitantes únicos da página Vagas (total)": 12.0,
+            "Total de visualizações da página (computadores)": 13.0,
+            "Total de visualizações da página (dispositivos móveis)": 27.0,
+            "Total de visualizações da página (total)": 40.0,
+            "Total de visitantes únicos (computadores)": 5.0,
+            "Total de visitantes únicos (dispositivos móveis)": 12.0,
+            "Total de visitantes únicos (total)": 16.0
+          },
+          {
+            "Data": "05/19/2026",
+            "Visualizações da página Visão geral (computadores)": 6.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 12.0,
+            "Visualizações da página Visão geral (total)": 18.0,
+            "Visitantes únicos da página Visão geral (computadores)": 4.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 10.0,
+            "Visitantes únicos da página Visão geral (total)": 14.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 13.0,
+            "Visualizações da página Vagas (total)": 14.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 11.0,
+            "Visitantes únicos da página Vagas (total)": 12.0,
+            "Total de visualizações da página (computadores)": 8.0,
+            "Total de visualizações da página (dispositivos móveis)": 26.0,
+            "Total de visualizações da página (total)": 34.0,
+            "Total de visitantes únicos (computadores)": 4.0,
+            "Total de visitantes únicos (dispositivos móveis)": 15.0,
+            "Total de visitantes únicos (total)": 19.0
+          },
+          {
+            "Data": "05/20/2026",
+            "Visualizações da página Visão geral (computadores)": 1.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 7.0,
+            "Visualizações da página Visão geral (total)": 8.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Visão geral (total)": 7.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 4.0,
+            "Visualizações da página Vagas (total)": 5.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Vagas (total)": 4.0,
+            "Total de visualizações da página (computadores)": 4.0,
+            "Total de visualizações da página (dispositivos móveis)": 11.0,
+            "Total de visualizações da página (total)": 15.0,
+            "Total de visitantes únicos (computadores)": 3.0,
+            "Total de visitantes únicos (dispositivos móveis)": 8.0,
+            "Total de visitantes únicos (total)": 11.0
+          },
+          {
+            "Data": "05/21/2026",
+            "Visualizações da página Visão geral (computadores)": 4.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 2.0,
+            "Visualizações da página Visão geral (total)": 6.0,
+            "Visitantes únicos da página Visão geral (computadores)": 4.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 2.0,
+            "Visitantes únicos da página Visão geral (total)": 6.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 8.0,
+            "Visualizações da página Vagas (total)": 8.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 8.0,
+            "Visitantes únicos da página Vagas (total)": 8.0,
+            "Total de visualizações da página (computadores)": 6.0,
+            "Total de visualizações da página (dispositivos móveis)": 15.0,
+            "Total de visualizações da página (total)": 21.0,
+            "Total de visitantes únicos (computadores)": 4.0,
+            "Total de visitantes únicos (dispositivos móveis)": 10.0,
+            "Total de visitantes únicos (total)": 14.0
+          },
+          {
+            "Data": "05/22/2026",
+            "Visualizações da página Visão geral (computadores)": 11.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 4.0,
+            "Visualizações da página Visão geral (total)": 15.0,
+            "Visitantes únicos da página Visão geral (computadores)": 8.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 11.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 1.0,
+            "Visualizações da página Vagas (total)": 1.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Vagas (total)": 1.0,
+            "Total de visualizações da página (computadores)": 21.0,
+            "Total de visualizações da página (dispositivos móveis)": 9.0,
+            "Total de visualizações da página (total)": 30.0,
+            "Total de visitantes únicos (computadores)": 8.0,
+            "Total de visitantes únicos (dispositivos móveis)": 6.0,
+            "Total de visitantes únicos (total)": 14.0
+          },
+          {
+            "Data": "05/23/2026",
+            "Visualizações da página Visão geral (computadores)": 3.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 4.0,
+            "Visualizações da página Visão geral (total)": 7.0,
+            "Visitantes únicos da página Visão geral (computadores)": 2.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 6.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 2.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 5.0,
+            "Visualizações da página Vagas (total)": 7.0,
+            "Visitantes únicos da página Vagas (computadores)": 2.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Vagas (total)": 6.0,
+            "Total de visualizações da página (computadores)": 8.0,
+            "Total de visualizações da página (dispositivos móveis)": 13.0,
+            "Total de visualizações da página (total)": 21.0,
+            "Total de visitantes únicos (computadores)": 3.0,
+            "Total de visitantes únicos (dispositivos móveis)": 5.0,
+            "Total de visitantes únicos (total)": 8.0
+          },
+          {
+            "Data": "05/24/2026",
+            "Visualizações da página Visão geral (computadores)": 6.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 4.0,
+            "Visualizações da página Visão geral (total)": 10.0,
+            "Visitantes únicos da página Visão geral (computadores)": 3.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 6.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 3.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 3.0,
+            "Visualizações da página Vagas (total)": 6.0,
+            "Visitantes únicos da página Vagas (computadores)": 2.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Vagas (total)": 5.0,
+            "Total de visualizações da página (computadores)": 9.0,
+            "Total de visualizações da página (dispositivos móveis)": 12.0,
+            "Total de visualizações da página (total)": 21.0,
+            "Total de visitantes únicos (computadores)": 3.0,
+            "Total de visitantes únicos (dispositivos móveis)": 8.0,
+            "Total de visitantes únicos (total)": 11.0
+          },
+          {
+            "Data": "05/25/2026",
+            "Visualizações da página Visão geral (computadores)": 4.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 5.0,
+            "Visualizações da página Visão geral (total)": 9.0,
+            "Visitantes únicos da página Visão geral (computadores)": 3.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 6.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 7.0,
+            "Visualizações da página Vagas (total)": 7.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 6.0,
+            "Visitantes únicos da página Vagas (total)": 6.0,
+            "Total de visualizações da página (computadores)": 6.0,
+            "Total de visualizações da página (dispositivos móveis)": 13.0,
+            "Total de visualizações da página (total)": 19.0,
+            "Total de visitantes únicos (computadores)": 3.0,
+            "Total de visitantes únicos (dispositivos móveis)": 6.0,
+            "Total de visitantes únicos (total)": 9.0
+          },
+          {
+            "Data": "05/26/2026",
+            "Visualizações da página Visão geral (computadores)": 0.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 2.0,
+            "Visualizações da página Visão geral (total)": 2.0,
+            "Visitantes únicos da página Visão geral (computadores)": 0.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 2.0,
+            "Visitantes únicos da página Visão geral (total)": 2.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 2.0,
+            "Visualizações da página Vagas (total)": 2.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 2.0,
+            "Visitantes únicos da página Vagas (total)": 2.0,
+            "Total de visualizações da página (computadores)": 0.0,
+            "Total de visualizações da página (dispositivos móveis)": 4.0,
+            "Total de visualizações da página (total)": 4.0,
+            "Total de visitantes únicos (computadores)": 0.0,
+            "Total de visitantes únicos (dispositivos móveis)": 3.0,
+            "Total de visitantes únicos (total)": 3.0
+          },
+          {
+            "Data": "05/27/2026",
+            "Visualizações da página Visão geral (computadores)": 2.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 6.0,
+            "Visualizações da página Visão geral (total)": 8.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Visão geral (total)": 5.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 4.0,
+            "Visualizações da página Vagas (total)": 5.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 4.0,
+            "Visitantes únicos da página Vagas (total)": 5.0,
+            "Total de visualizações da página (computadores)": 3.0,
+            "Total de visualizações da página (dispositivos móveis)": 11.0,
+            "Total de visualizações da página (total)": 14.0,
+            "Total de visitantes únicos (computadores)": 1.0,
+            "Total de visitantes únicos (dispositivos móveis)": 5.0,
+            "Total de visitantes únicos (total)": 6.0
+          },
+          {
+            "Data": "05/28/2026",
+            "Visualizações da página Visão geral (computadores)": 2.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 3.0,
+            "Visualizações da página Visão geral (total)": 5.0,
+            "Visitantes únicos da página Visão geral (computadores)": 2.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Visão geral (total)": 5.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 7.0,
+            "Visualizações da página Vagas (total)": 7.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 3.0,
+            "Visitantes únicos da página Vagas (total)": 3.0,
+            "Total de visualizações da página (computadores)": 2.0,
+            "Total de visualizações da página (dispositivos móveis)": 15.0,
+            "Total de visualizações da página (total)": 17.0,
+            "Total de visitantes únicos (computadores)": 2.0,
+            "Total de visitantes únicos (dispositivos móveis)": 5.0,
+            "Total de visitantes únicos (total)": 7.0
+          },
+          {
+            "Data": "05/29/2026",
+            "Visualizações da página Visão geral (computadores)": 2.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 1.0,
+            "Visualizações da página Visão geral (total)": 3.0,
+            "Visitantes únicos da página Visão geral (computadores)": 2.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Visão geral (total)": 3.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 1.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 1.0,
+            "Visualizações da página Vagas (total)": 2.0,
+            "Visitantes únicos da página Vagas (computadores)": 1.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Vagas (total)": 2.0,
+            "Total de visualizações da página (computadores)": 4.0,
+            "Total de visualizações da página (dispositivos móveis)": 2.0,
+            "Total de visualizações da página (total)": 6.0,
+            "Total de visitantes únicos (computadores)": 2.0,
+            "Total de visitantes únicos (dispositivos móveis)": 2.0,
+            "Total de visitantes únicos (total)": 4.0
+          },
+          {
+            "Data": "05/30/2026",
+            "Visualizações da página Visão geral (computadores)": 1.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 1.0,
+            "Visualizações da página Visão geral (total)": 2.0,
+            "Visitantes únicos da página Visão geral (computadores)": 1.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Visão geral (total)": 2.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 1.0,
+            "Visualizações da página Vagas (total)": 1.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 1.0,
+            "Visitantes únicos da página Vagas (total)": 1.0,
+            "Total de visualizações da página (computadores)": 8.0,
+            "Total de visualizações da página (dispositivos móveis)": 2.0,
+            "Total de visualizações da página (total)": 10.0,
+            "Total de visitantes únicos (computadores)": 1.0,
+            "Total de visitantes únicos (dispositivos móveis)": 1.0,
+            "Total de visitantes únicos (total)": 2.0
+          },
+          {
+            "Data": "05/31/2026",
+            "Visualizações da página Visão geral (computadores)": 2.0,
+            "Visualizações da página Visão geral (dispositivos móveis)": 3.0,
+            "Visualizações da página Visão geral (total)": 5.0,
+            "Visitantes únicos da página Visão geral (computadores)": 2.0,
+            "Visitantes únicos da página Visão geral (dispositivos móveis)": 2.0,
+            "Visitantes únicos da página Visão geral (total)": 4.0,
+            "Visualizações da página Dia a dia (computadores)": 0.0,
+            "Visualizações da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visualizações da página Dia a dia (total)": 0.0,
+            "Visitantes únicos da página Dia a dia (computadores)": 0.0,
+            "Visitantes únicos da página Dia a dia (dispositivos móveis)": 0.0,
+            "Visitantes únicos da página Dia a dia (total)": 0.0,
+            "Visualizações da página Vagas (computadores)": 0.0,
+            "Visualizações da página Vagas (dispositivos móveis)": 6.0,
+            "Visualizações da página Vagas (total)": 6.0,
+            "Visitantes únicos da página Vagas (computadores)": 0.0,
+            "Visitantes únicos da página Vagas (dispositivos móveis)": 5.0,
+            "Visitantes únicos da página Vagas (total)": 5.0,
+            "Total de visualizações da página (computadores)": 4.0,
+            "Total de visualizações da página (dispositivos móveis)": 11.0,
+            "Total de visualizações da página (total)": 15.0,
+            "Total de visitantes únicos (computadores)": 2.0,
+            "Total de visitantes únicos (dispositivos móveis)": 6.0,
+            "Total de visitantes únicos (total)": 8.0
+          }
+        ],
+        "demographics": {
+          "Localidade": [
+            {
+              "label": "Condado, Brasil",
+              "value": 13.0
+            },
+            {
+              "label": "Natal e Região, Brasil",
+              "value": 34.0
+            },
+            {
+              "label": "Petrolina, Brasil",
+              "value": 10.0
+            },
+            {
+              "label": "Belém e Região, Brasil",
+              "value": 8.0
+            },
+            {
+              "label": "Jacobina, Brasil",
+              "value": 10.0
+            },
+            {
+              "label": "Rio de Janeiro e Região, Brasil",
+              "value": 20.0
+            },
+            {
+              "label": "São Paulo e Região, Brasil",
+              "value": 87.0
+            },
+            {
+              "label": "Pindamonhangaba, Brasil",
+              "value": 17.0
+            },
+            {
+              "label": "Belo Horizonte e Região, Brasil",
+              "value": 38.0
+            },
+            {
+              "label": "Janaúba, Brasil",
+              "value": 16.0
+            },
+            {
+              "label": "Mossoró, Brasil",
+              "value": 30.0
+            },
+            {
+              "label": "Rorainópolis, Brasil",
+              "value": 9.0
+            },
+            {
+              "label": "João Câmara, Brasil",
+              "value": 9.0
+            },
+            {
+              "label": "Recife e Região, Brasil",
+              "value": 9.0
+            },
+            {
+              "label": "Salvador e Região, Brasil",
+              "value": 17.0
+            },
+            {
+              "label": "Fortaleza e Região, Brasil",
+              "value": 174.0
+            },
+            {
+              "label": "Greater Mersin, Turquia",
+              "value": 10.0
+            },
+            {
+              "label": "Campinas e Região, Brasil",
+              "value": 15.0
+            }
+          ],
+          "Função": [
+            {
+              "label": "Controle de qualidade",
+              "value": 3.0
+            },
+            {
+              "label": "Imóveis",
+              "value": 6.0
+            },
+            {
+              "label": "Recursos humanos",
+              "value": 9.0
+            },
+            {
+              "label": "Pesquisa",
+              "value": 25.0
+            },
+            {
+              "label": "Tecnologia da informação",
+              "value": 30.0
+            },
+            {
+              "label": "Área jurídica",
+              "value": 8.0
+            },
+            {
+              "label": "Vendas",
+              "value": 34.0
+            },
+            {
+              "label": "Marketing",
+              "value": 2.0
+            },
+            {
+              "label": "Suporte",
+              "value": 4.0
+            },
+            {
+              "label": "Mídia e comunicação",
+              "value": 4.0
+            },
+            {
+              "label": "Serviços de proteção e militares",
+              "value": 2.0
+            },
+            {
+              "label": "Operações",
+              "value": 169.0
+            },
+            {
+              "label": "Contabilidade",
+              "value": 13.0
+            },
+            {
+              "label": "Administração",
+              "value": 9.0
+            },
+            {
+              "label": "Desenvolvimento de negócios",
+              "value": 58.0
+            },
+            {
+              "label": "Serviços sociais e comunitários",
+              "value": 11.0
+            },
+            {
+              "label": "Consultoria",
+              "value": 4.0
+            },
+            {
+              "label": "Educação",
+              "value": 18.0
+            },
+            {
+              "label": "Engenharia",
+              "value": 101.0
+            },
+            {
+              "label": "Empreendedorismo",
+              "value": 14.0
+            },
+            {
+              "label": "Gestão de projetos",
+              "value": 16.0
+            },
+            {
+              "label": "Compras",
+              "value": 2.0
+            },
+            {
+              "label": "Financeiro",
+              "value": 10.0
+            }
+          ],
+          "Nível de experiência": [
+            {
+              "label": "Treinamento",
+              "value": 3.0
+            },
+            {
+              "label": "Iniciante",
+              "value": 277.0
+            },
+            {
+              "label": "Sênior",
+              "value": 149.0
+            },
+            {
+              "label": "Gerente",
+              "value": 68.0
+            },
+            {
+              "label": "Diretor",
+              "value": 8.0
+            },
+            {
+              "label": "Vice-Presidente",
+              "value": 1.0
+            },
+            {
+              "label": "Dirigente (CEO, COO, CFO, CMO)",
+              "value": 5.0
+            },
+            {
+              "label": "Parceiro",
+              "value": 17.0
+            },
+            {
+              "label": "Proprietário",
+              "value": 33.0
+            }
+          ],
+          "Setor": [
+            {
+              "label": "Construção",
+              "value": 85.0
+            },
+            {
+              "label": "Serviços para energia renovável",
+              "value": 33.0
+            },
+            {
+              "label": "Serviços de engenharia",
+              "value": 111.0
+            },
+            {
+              "label": "Transporte ferroviário e metroferroviário",
+              "value": 8.0
+            },
+            {
+              "label": "Fabricação de equipamentos de energia renovável",
+              "value": 69.0
+            },
+            {
+              "label": "Geração de energia renovável",
+              "value": 46.0
+            },
+            {
+              "label": "Administração, planejamento, regulamentação e fiscalização de transportes",
+              "value": 8.0
+            },
+            {
+              "label": "Geração de energia elétrica eólica",
+              "value": 43.0
+            },
+            {
+              "label": "Transporte, armazenagem e correio",
+              "value": 12.0
+            },
+            {
+              "label": "Serviços de escritório e apoio administrativo",
+              "value": 9.0
+            },
+            {
+              "label": "Obras de infra-estrutura",
+              "value": 37.0
+            },
+            {
+              "label": "Atividades dos serviços de tecnologia da informação",
+              "value": 21.0
+            },
+            {
+              "label": "Serviços administrativos e complementares",
+              "value": 10.0
+            },
+            {
+              "label": "Atividades de consultoria em gestão empresarial",
+              "value": 32.0
+            },
+            {
+              "label": "Serviços de alimentação e bebidas",
+              "value": 9.0
+            },
+            {
+              "label": "Extração de petróleo e gás natural",
+              "value": 20.0
+            },
+            {
+              "label": "Hospitais e atividades de atenção à saúde humana",
+              "value": 11.0
+            },
+            {
+              "label": "Serviços de eletricidade, gás, água e esgoto",
+              "value": 11.0
+            },
+            {
+              "label": "Atividades de coordenação e controle da operação da geração e transmissão de energia elétrica",
+              "value": 12.0
+            },
+            {
+              "label": "Geração de energia elétrica",
+              "value": 8.0
+            },
+            {
+              "label": "Serviços combinados para apoio a edifícios",
+              "value": 15.0
+            },
+            {
+              "label": "Consultoria de terceirização e offshoring",
+              "value": 9.0
+            },
+            {
+              "label": "Geração de energia elétrica solar",
+              "value": 22.0
+            },
+            {
+              "label": "Fabricação de máquinas de automação",
+              "value": 9.0
+            },
+            {
+              "label": "Desenvolvimento de software",
+              "value": 9.0
+            },
+            {
+              "label": "Serviços ambientais",
+              "value": 9.0
+            }
+          ],
+          "Tamanho da empresa": [
+            {
+              "label": "2-10",
+              "value": 53.0
+            },
+            {
+              "label": "+ de 10.001",
+              "value": 61.0
+            },
+            {
+              "label": "501-1.000",
+              "value": 37.0
+            },
+            {
+              "label": "11-50",
+              "value": 85.0
+            },
+            {
+              "label": "51-200",
+              "value": 131.0
+            },
+            {
+              "label": "5.001-10.000",
+              "value": 20.0
+            },
+            {
+              "label": "1.001-5.000",
+              "value": 53.0
+            },
+            {
+              "label": "201-500",
+              "value": 80.0
+            }
+          ]
+        }
+      }
     }
   },
   "analysis": {
@@ -6403,6 +9628,163 @@ window.LINKEDIN_DATA = {
           }
         ]
       }
+    },
+    "2026-05": {
+      "period": "Maio 2026",
+      "generatedAt": "2026-06-03",
+      "summary": "Maio 2026 consolida a trajetória de crescimento acelerado da INOVA no LinkedIn. Com 6 posts publicados, a página atingiu 15,015 impressões totais (+87% vs abril), 277 novos seguidores orgânicos (+85% vs abril) e engajamento médio de 15.2%. O destaque do mês foi o post de repost estratégico do Complexo Grande Sertão II (Matrix Energia), com 59,4% de taxa de engajamento e 889 cliques em 1.529 impressões — o maior CTR individual da história da página. O mês também inaugurou nova frente editorial: autoridade técnica em projetos elétricos industriais (NBR 5410), ampliando o alcance para além do segmento de energia renovável.",
+      "kpis": {
+        "impressions": 15015,
+        "clicks": 1920,
+        "reactions": 345,
+        "comments": 17,
+        "shares": 2,
+        "newFollowers": 277,
+        "avgEngagement": 0.1521,
+        "pageViews": 677,
+        "uniqueVisitors": 328
+      },
+      "postAnalysis": [
+        {
+          "title": "Fiscal de obra não é vigia de canteiro...",
+          "date": "05/05/2026",
+          "impressions": 3559,
+          "clicks": 130,
+          "likes": 100,
+          "comments": 3,
+          "shares": 4,
+          "engagement": 0.0666,
+          "insight": "Post de engajamento com maior alcance de maio: 3.559 impressões. O gancho provocativo gerou 100 reações e 3 comentários. A listagem técnica de disciplinas funcionou como validação de escopo de serviço — conteúdo que educa e posiciona simultaneamente. O CTA ancorado em experiência profissional ('Já viu obra que economizou na fiscalização e pagou o preço na operação?') gerou 3 respostas — confirma que perguntas específicas funcionam. Engajamento de 6,7% sólido para post de topo de funil."
+        },
+        {
+          "title": "7 dos 40 parques renováveis de maior fator de capacidade do Brasil...",
+          "date": "05/07/2026",
+          "impressions": 2764,
+          "clicks": 48,
+          "likes": 70,
+          "comments": 8,
+          "shares": 6,
+          "engagement": 0.0478,
+          "insight": "Post de prova social com dado de ranking: 8 comentários — segundo maior volume da história da página. Os 70 likes são o maior volume de reações individuais de maio. O tema 'performance operacional como resultado da qualidade na fiscalização' ressoa com o público técnico. Recomendação: transformar esse dado em case study completo — multiplicaria o CTR significativamente."
+        },
+        {
+          "title": "1.400 MW de geração. 80.000 ton de H2 verde/ano — Projeto Morro Pintado (BGE)",
+          "date": "05/12/2026",
+          "impressions": 1405,
+          "clicks": 37,
+          "likes": 43,
+          "comments": 2,
+          "shares": 9,
+          "engagement": 0.0648,
+          "insight": "Maior volume de shares de maio: 9 compartilhamentos. O tema hidrogênio verde com âncora internacional (Hannover Messe, Deutsche Bahn, thyssenkrupp) ativa forte propensão de repasse. O gancho com dados de escala (1.400 MW, 80.000 ton/ano) funcionou — mas o alcance de 1.405 impressões ficou abaixo do potencial. Indica que o tema H2V ainda está ganhando tração no algoritmo da INOVA. Oportunidade para post técnico próprio sobre estudos de viabilidade."
+        },
+        {
+          "title": "Grande Sertão II — 105 MWp, 3 das primeiras posições no ranking ePowerBay (Repost Estratégico)",
+          "date": "05/15/2026",
+          "impressions": 1529,
+          "clicks": 889,
+          "likes": 17,
+          "comments": 0,
+          "shares": 2,
+          "engagement": 0.5939,
+          "insight": "NOVO RECORDE ABSOLUTO DA INOVA: CTR de 58,1% e engajamento de 59,4% — o dobro do anterior recorde do Complexo Bom Jardim (29,8%). O mecanismo foi o redirecionamento para o post original do cliente via comentário — comportamento de link-click qualificado que o algoritmo interpreta como interesse muito alto. PADRÃO CONFIRMADO: repostar com link para o conteúdo original do cliente, contextualizando a atuação técnica da INOVA, é o formato de maior CTR individual possível."
+        },
+        {
+          "title": "NBR 5410 — Coordenação e Seletividade: o estudo que some do projeto quando o cliente pede desconto",
+          "date": "05/19/2026",
+          "impressions": 854,
+          "clicks": 26,
+          "likes": 20,
+          "comments": 0,
+          "shares": 5,
+          "engagement": 0.0597,
+          "insight": "Primeiro post da nova série de projetos elétricos industriais. Engajamento de 6,0% e 5 shares indicam que profissionais de elétrica encontraram valor técnico. Alcance menor (854 impressões) reflete que esta nova temática ainda está ganhando tração. Zero comentários sugerem que o CTA precisava de mais provocação. Recomendação: ancorar em caso real de falha para maximizar o engajamento desta linha editorial."
+        },
+        {
+          "title": "NBR 5410 — Os três critérios simultâneos de dimensionamento: corrente, queda de tensão e coordenação",
+          "date": "05/22/2026",
+          "impressions": 1017,
+          "clicks": 22,
+          "likes": 18,
+          "comments": 0,
+          "shares": 4,
+          "engagement": 0.0433,
+          "insight": "Segundo post da série NBR 5410. Engajamento de 4,3% — levemente abaixo do primeiro da série. O detalhamento técnico (resistividade, fórmulas, fatores de correção) gera autoridade mas reduz escaneabilidade. Os 4 shares confirmam valor técnico para profissionais de projeto elétrico. Recomendação: inserir um caso real de falha no início do post para aumentar o CTR desta série."
+        }
+      ],
+      "trends": [
+        {
+          "title": "Novo recorde de seguidores: +277 em um único mês (+85% vs abril)",
+          "detail": "277 novos seguidores orgânicos — maior crescimento mensal da história da página INOVA. Os picos concentraram-se na semana de 4 a 8 de maio (63 novos seguidores em 5 dias), coincidindo com os posts de maior alcance. O crescimento acumulado confirma que a estratégia de conteúdo técnico com dados reais está atraindo a audiência certa de forma sustentada."
+        },
+        {
+          "title": "Grande Sertão II: CTR de 59,4% — novo benchmark e padrão de repost",
+          "detail": "889 cliques em 1.529 impressões — o maior CTR individual de toda a história da página. O mecanismo: post com link para o conteúdo original do cliente (Matrix Energia) no 1º comentário. O público clicou para ver o post original, gerando um CTR extraordinário. PADRÃO OPERACIONAL IDENTIFICADO: sempre que cliente publicar sobre projeto da INOVA, preparar repost em até 24h com dados técnicos da atuação + link para o post do cliente no 1º comentário."
+        },
+        {
+          "title": "Nova frente editorial: projetos elétricos industriais / NBR 5410",
+          "detail": "Dois posts em maio inauguraram a temática elétrica industrial — diferente das linhas habituais de renováveis e Engenharia do Proprietário. Performance média de 5,2% de engajamento, 936 impressões. Audiência distinta e menor no início, mas com shares consistentes (5 e 4), indicando que a temática tem nicho qualificado. Recomendação: manter 1 post/mês desta frente, sempre ancorado em caso real."
+        },
+        {
+          "title": "+37% em visitantes únicos (328 vs 239 em abril) — intenção de compra crescendo",
+          "detail": "O volume de visitantes únicos é o indicador mais próximo de 'intenção comercial' no LinkedIn. O crescimento de +37% em maio, com Serviços de Engenharia (111 views) superando Construção (85) no ranking de setores visitantes, indica que empresas de engenharia e energia estão avaliando ativamente a INOVA como parceiro. A aparição de perfis turcos (Greater Mersin) sugere interesse internacional ligado ao tema hidrogênio verde."
+        }
+      ],
+      "audienceInsights": {
+        "summary": "A base de seguidores continua crescendo com perfil B2B altamente qualificado. O crescimento recorde de +277 em maio confirma que o conteúdo técnico com dados reais atrai a persona certa — profissionais de engenharia, operações e desenvolvimento de negócios em empresas do setor de infraestrutura e energia.",
+        "highlights": [
+          "Operações (6.849) + Engenharia (4.278) representam 44% dos seguidores totais — alinhamento estratégico perfeito com a persona que especifica e contrata Engenharia do Proprietário.",
+          "Decisores: Diretores (1.049) + Gerentes (2.645) + Dirigentes (411) + Proprietários (384) = 4.489 seguidores com poder de compra — 17,5% da base.",
+          "Fortaleza (4.296) + Natal (1.517) = 5.813 seguidores no Nordeste — concentração geográfica alinhada à atuação da INOVA em renováveis nordestinos.",
+          "Top 3 setores: Obras de Infraestrutura (2.652), Construção (2.190), Fabricação de Equipamentos de Energia Renovável (1.855) — ICP perfeito para os serviços da INOVA.",
+          "Visitantes de maio: Operações (169) + Engenharia (101) + Desenvolvimento de Negócios (58) = 328 views com perfil técnico-comercial — tráfego de alta qualidade."
+        ]
+      },
+      "visitorInsights": "Visitantes de maio (328 únicos, +37% vs abril) têm perfil técnico-comercial alinhado ao ICP da INOVA. Operações (169 views) e Engenharia (101) lideram, seguidos de Desenvolvimento de Negócios (58) e Vendas (34). Por setor, Serviços de Engenharia (111) lidera pela primeira vez — sinal de que empresas de engenharia estão avaliando a INOVA como referência ou potencial parceiro. Fortaleza (174 views) é a praça com mais visitantes, seguida de São Paulo (87). A presença de Greater Mersin, Turquia (10 views) sugere interesse internacional — possivelmente ligado à publicação sobre o Projeto Morro Pintado e a pauta de hidrogênio verde.",
+      "recommendations": [
+        "PRIORIDADE 1: Sistematizar o repost estratégico — criar processo interno: sempre que cliente publicar sobre projeto INOVA, preparar repost técnico em até 24h com dados da atuação INOVA + link para o post original no 1º comentário. ROI comprovado: CTR de 59,4% vs média de 3-4%.",
+        "PRIORIDADE 2: Converter '7 dos 40 parques' em case study completo — os 8 comentários e 70 likes indicam audiência altamente engajada. Um case técnico específico (nome do parque + dados de performance) pode superar o Bom Jardim em engajamento.",
+        "PRIORIDADE 3: Post técnico próprio sobre hidrogênio verde — os 9 shares do Morro Pintado confirmam alta propensão de repasse. Um post técnico sobre estudos de viabilidade de H2V (área de atuação da INOVA) pode gerar alcance viral no nicho.",
+        "PRIORIDADE 4: Ancorar posts NBR 5410 em casos reais — 'em um projeto que auditamos recentemente, encontramos este erro...' converte mais do que teoria normativa. A nova série elétrica tem potencial, mas precisa de storytelling técnico para ampliar o alcance.",
+        "PRIORIDADE 5: Responder a 100% dos comentários nas primeiras 2h — os 13 comentários de maio (8 no post dos parques, 3 no da fiscalização) abriram conversas técnicas. Cada resposta amplifica o dwell time e o alcance orgânico.",
+        "MONITORAR: Serviços de Engenharia agora lidera entre visitantes por setor (111 views) — acompanhar se esse tráfego converte em conexões/mensagens. Pode indicar interesse de parceiros ou concorrentes pesquisando benchmark."
+      ],
+      "competitiveBenchmarks": {
+        "note": "Benchmarks para empresas de engenharia de médio porte no Brasil (LinkedIn, 2025-2026)",
+        "data": [
+          {
+            "metric": "Taxa de engajamento média",
+            "inova": "15.2%",
+            "benchmark": "2-3%",
+            "status": "acima"
+          },
+          {
+            "metric": "Impressões mensais",
+            "inova": "15,015",
+            "benchmark": "3.000-8.000",
+            "status": "acima"
+          },
+          {
+            "metric": "Novos seguidores/mês",
+            "inova": "277",
+            "benchmark": "30-80",
+            "status": "acima"
+          },
+          {
+            "metric": "Frequência de posts",
+            "inova": "6/mês",
+            "benchmark": "4-8/mês",
+            "status": "dentro"
+          },
+          {
+            "metric": "CTR médio por post",
+            "inova": "12,8%",
+            "benchmark": "2-4%",
+            "status": "acima"
+          }
+        ]
+      }
     }
-  }
+  },
+  "lastUpdated": "2026-06-03"
 };
